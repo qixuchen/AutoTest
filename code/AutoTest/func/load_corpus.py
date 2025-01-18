@@ -45,6 +45,7 @@ def load_PBICSV():
     corpus['dist_val'] = corpus['dist_val_str'].apply(lambda x: str(x).split("___"))
     corpus['dist_val'] = corpus['dist_val'].apply(lambda x: [] if not type(x) == list else x)
     del corpus['dist_val_str']
+    CORPUS_NAME = 'PBICSV'
     return corpus
 
 def load_WebTable():
@@ -174,29 +175,18 @@ def load_Tablib_Small():
 
 def load_Tablib_Sample_Large():
     global CORPUS_NAME
-    csv_file = os.path.join(config.dir.storage_root_dir, config.dir.storage_root.train_corpora, 'Tablib_All.txt')
-    header = ['val_str', 'dist_val_str', 'dist_val_count']
+    csv_file = os.path.join(config.dir.storage_root_dir, config.dir.storage_root.train_corpora, 'Tablib.txt')
     schema = {
-        'val_str' : str,
         'dist_val_str' : str,
         'dist_val_count' : int
     }
 
-    corpus = pd.read_csv(csv_file, dtype = schema, header = None, names = header, sep = '\t', usecols = ['val_str', 'dist_val_str', 'dist_val_count'], error_bad_lines = False)
-    corpus = corpus.drop_duplicates(subset=['val_str']).reset_index(drop=True)
-    corpus['dist_val'] = list(corpus['dist_val_str'].str.split("___"))
+    corpus = pd.read_csv(csv_file, dtype = schema, sep = '\t', error_bad_lines = False)
+    corpus['dist_val'] = corpus['dist_val_str'].apply(lambda x: str(x).split("___"))
     corpus['dist_val'] = corpus['dist_val'].apply(lambda x: [] if not type(x) == list else x)
-    corpus['dist_val'] = corpus['dist_val'].apply(lambda x: [str(v) for v in x if str(v).lower() != 'nan' and str(v).lower() != ''])
-    corpus['dist_val_count'] = corpus['dist_val'].apply(lambda x: len(x))
-    corpus['avg_val_length'] = corpus['dist_val'].apply(lambda x: sum([len(v) for v in x])/len(x))
-    corpus = corpus[corpus['avg_val_length'] < 60].reset_index(drop=True)
-    del corpus['val_str']
     del corpus['dist_val_str']
     CORPUS_NAME = 'Tablib_Sample_Large'
-    
-    train = corpus.iloc[:int(0.7*len(corpus))].copy()
-    train = train[(train['dist_val_count'] >= 5) & (train['dist_val_count'] <= 1000)].reset_index(drop=True)
-    return train
+    return corpus
 
 def load_ExcelCtrT():
     global CORPUS_NAME
