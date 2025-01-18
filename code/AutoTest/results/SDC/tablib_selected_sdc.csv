@@ -1,0 +1,524 @@
+type,pre-condition,post-condition,confidence
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""ne"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""ne"" > 1.375",0.9984619323535519
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""se"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""se"" > 1.375",0.9978118528511826
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""lebanon"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""lebanon"" > 1.425",0.9976415140674206
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""ne"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""ne"" > 1.35",0.997480696090198
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""gd"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""gd"" > 1.35",0.9966086481103501
+CTA,"80 % column values have their Doduo ""team""-classifier scores >= 4.5","values whose Doduo ""team""-classifier scores <= -2.5""",0.9965006726864557
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""other"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""other"" > 1.375",0.9963531276128635
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""lebanon"" < 1.1","values whose Sentence-BERT embedding distance to ""lebanon"" > 1.4000000000000001",0.9958372054315714
+CTA,"80 % column values have their Doduo ""team""-classifier scores >= 4.5","values whose Doduo ""team""-classifier scores <= -2""",0.9957678086531366
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""ne"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""ne"" > 1.3250000000000002",0.9954694419822245
+CTA,"80 % column values have their Doduo ""team""-classifier scores >= 4","values whose Doduo ""team""-classifier scores <= -2""",0.9952253839801789
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""ba"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""ba"" > 1.35",0.995201487249507
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""canada"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""canada"" > 1.4000000000000001",0.9948810959254045
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9945343152166776
+Pattern,"98 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9940880236084682
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""virginia"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""virginia"" > 1.4000000000000001",0.9940434110835502
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""hong kong"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""hong kong"" > 1.4000000000000001",0.9937385832666186
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""peter"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""peter"" > 1.35",0.9936645989553877
+Pattern,"97 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9936449422963509
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""argentina"" < 1.1","values whose Sentence-BERT embedding distance to ""argentina"" > 1.4000000000000001",0.9933893740527177
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""thailand"" < 1.1","values whose Sentence-BERT embedding distance to ""thailand"" > 1.4000000000000001",0.9933344567340331
+CTA,"80 % column values have their Doduo ""state""-classifier scores >= 4.5","values whose Doduo ""state""-classifier scores <= -2.5""",0.9928377686774664
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""se"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""se"" > 1.3250000000000002",0.9922187139594416
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9921094007405289
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""canada"" < 1.1","values whose Sentence-BERT embedding distance to ""canada"" > 1.375",0.9915641694367286
+CTA,"80 % column values have their Doduo ""state""-classifier scores >= 4","values whose Doduo ""state""-classifier scores <= -2.5""",0.991339915358495
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""france"" < 1.1","values whose Sentence-BERT embedding distance to ""france"" > 1.375",0.9904980844340784
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""argentina"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""argentina"" > 1.375",0.9902736881016267
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""british columbia"" < 1.1","values whose Sentence-BERT embedding distance to ""british columbia"" > 1.35",0.9902458247173483
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""france"" < 1.0","values whose Sentence-BERT embedding distance to ""france"" > 1.35",0.9899917049116094
+Embedding,"80 % column values have their Glove embedding distance to ""peter"" < 5.0","values whose Glove embedding distance to ""peter"" > 10.5",0.9899904243900398
+Embedding,"80 % column values have their Glove embedding distance to ""peter"" < 5.0","values whose Glove embedding distance to ""peter"" > 9.0",0.9899904243900398
+Embedding,"80 % column values have their Glove embedding distance to ""peter"" < 5.0","values whose Glove embedding distance to ""peter"" > 8.5",0.9899904243900398
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""canada"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""canada"" > 1.375",0.9899252253481895
+Pattern,"98 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.989775203621188
+Embedding,"80 % column values have their Glove embedding distance to ""brown"" < 4.5","values whose Glove embedding distance to ""brown"" > 11.5",0.9895563742654447
+Embedding,"80 % column values have their Glove embedding distance to ""brown"" < 4.5","values whose Glove embedding distance to ""brown"" > 9.5",0.9895563742654447
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""minnesota"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""minnesota"" > 1.375",0.9894621265685754
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""en"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""en"" > 1.3250000000000002",0.9893061470899991
+Pattern,"97 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.988939836961134
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""jones"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""jones"" > 1.35",0.9885785209860466
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""france"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""france"" > 1.375",0.9883733127722055
+Pattern,"95 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9882156728633285
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""virginia"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""virginia"" > 1.375",0.9870623272132472
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""canada"" < 1.0","values whose Sentence-BERT embedding distance to ""canada"" > 1.35",0.9870584176880869
+Pattern,"93 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9869640339213381
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""antarctica"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""antarctica"" > 1.375",0.9869576748499419
+Pattern,"95 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9868761190674418
+Embedding,"80 % column values have their Glove embedding distance to ""actor"" < 5.5","values whose Glove embedding distance to ""actor"" > 9.0",0.9866072424641336
+Embedding,"80 % column values have their Glove embedding distance to ""actor"" < 5.5","values whose Glove embedding distance to ""actor"" > 8.0",0.9866072424641336
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""",0.9862376496993907
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""blue"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""blue"" > 1.35",0.9858119762300059
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""ss"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""ss"" > 1.3",0.9857264482917466
+CTA,"80 % column values have their Doduo ""category""-classifier scores >= 4","values whose Doduo ""category""-classifier scores <= -2""",0.9857175689743647
+Embedding,"80 % column values have their Glove embedding distance to ""james"" < 4.0","values whose Glove embedding distance to ""james"" > 10.0",0.9853285345033027
+Pattern,"90 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.985309809643778
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""france"" < 1.0","values whose Sentence-BERT embedding distance to ""france"" > 1.3250000000000002",0.985245899741337
+Pattern,"97 % of values match pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""",0.985102968592883
+Pattern,"98 % of values match pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""",0.985102968592883
+CTA,"80 % column values have their Doduo ""day""-classifier scores >= 4","values whose Doduo ""day""-classifier scores <= -2""",0.9851009301834925
+Embedding,"80 % column values have their Glove embedding distance to ""scott"" < 4.0","values whose Glove embedding distance to ""scott"" > 7.0",0.9851009301834925
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""nsw"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""nsw"" > 1.35",0.9850511924870845
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""indiana"" < 1.1","values whose Sentence-BERT embedding distance to ""indiana"" > 1.35",0.9849319558776335
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""gold"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""gold"" > 1.35",0.9847640209331977
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""argentina"" < 1.1","values whose Sentence-BERT embedding distance to ""argentina"" > 1.35",0.9847392062864654
+Pattern,"85 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9843517612263244
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""france"" < 1.1","values whose Sentence-BERT embedding distance to ""france"" > 1.35",0.9842091452231263
+Pattern,"90 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9840353795982834
+Pattern,"93 % of values match pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""",0.9839840742813675
+Pattern,"97 % of values match pattern ""^\([\+\-\d\.,]+ [\+\-\d\.,]+\)$""","values not matching pattern ""^\([\+\-\d\.,]+ [\+\-\d\.,]+\)$""",0.9839413737132655
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""canada"" < 1.1","values whose Sentence-BERT embedding distance to ""canada"" > 1.35",0.983402358300966
+CTA,"80 % column values have their Sherlock ""state""-classifier scores >= 0.65","values whose Sherlock ""state""-classifier scores <= 0",0.9832858803628238
+Embedding,"80 % column values have their Glove embedding distance to ""steven"" < 5.0","values whose Glove embedding distance to ""steven"" > 10.0",0.9830411236116722
+CTA,"80 % column values have their Doduo ""country""-classifier scores >= 4.5","values whose Doduo ""country""-classifier scores <= -1.5""",0.9830030106017174
+Pattern,"80 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9828555589724693
+Pattern,"90 % of values match pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""",0.9817865172296003
+Pattern,"85 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.981438417811273
+Embedding,"80 % column values have their Glove embedding distance to ""james"" < 4.5","values whose Glove embedding distance to ""james"" > 10.0",0.9814239472054616
+Embedding,"80 % column values have their Glove embedding distance to ""james"" < 4.5","values whose Glove embedding distance to ""james"" > 9.0",0.9814239472054616
+Embedding,"80 % column values have their Glove embedding distance to ""yes"" < 5.0","values whose Glove embedding distance to ""yes"" > 8.5",0.9812617225166973
+Embedding,"80 % column values have their Glove embedding distance to ""charlie"" < 4.5","values whose Glove embedding distance to ""charlie"" > 12.0",0.9810511444193111
+Embedding,"80 % column values have their Glove embedding distance to ""charlie"" < 4.5","values whose Glove embedding distance to ""charlie"" > 11.0",0.9810511444193111
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9809351689977619
+Embedding,"80 % column values have their Glove embedding distance to ""scott"" < 4.5","values whose Glove embedding distance to ""scott"" > 9.5",0.9809235292144233
+Embedding,"80 % column values have their Glove embedding distance to ""scott"" < 4.5","values whose Glove embedding distance to ""scott"" > 8.5",0.9809235292144233
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""canada"" < 1.0","values whose Sentence-BERT embedding distance to ""canada"" > 1.3",0.9809235292144233
+Pattern,"85 % of values match pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""",0.980705145594898
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""peter"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""peter"" > 1.3250000000000002",0.9806959422022284
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""indiana"" < 1.1","values whose Sentence-BERT embedding distance to ""indiana"" > 1.3250000000000002",0.9806114881663808
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""gold"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""gold"" > 1.3250000000000002",0.9804631406678217
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9802758209710095
+Embedding,"80 % column values have their Glove embedding distance to ""washington"" < 5.0","values whose Glove embedding distance to ""washington"" > 8.0",0.9802392921278904
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""aa"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""aa"" > 1.3250000000000002",0.9798068703523829
+Pattern,"80 % of values match pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+[a-zA-Z]+$""",0.9796339720624389
+CTA,"80 % column values have their Doduo ""team""-classifier scores >= 4.5","values whose Doduo ""team""-classifier scores <= -1.5""",0.9794849237041696
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""chicago"" < 1.1","values whose Sentence-BERT embedding distance to ""chicago"" > 1.35",0.979406208094721
+Pattern,"80 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9790704955707145
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""blue"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""blue"" > 1.3250000000000002",0.9788695229772839
+CTA,"80 % column values have their Doduo ""country""-classifier scores >= 4","values whose Doduo ""country""-classifier scores <= -1.5""",0.9787285528664119
+Embedding,"80 % column values have their Glove embedding distance to ""patricia"" < 5.0","values whose Glove embedding distance to ""patricia"" > 10.5",0.9782705219993597
+Embedding,"80 % column values have their Glove embedding distance to ""black"" < 5.5","values whose Glove embedding distance to ""black"" > 11.0",0.978259089102739
+Embedding,"80 % column values have their Glove embedding distance to ""mon"" < 6.5","values whose Glove embedding distance to ""mon"" > 10.0",0.9781530650312554
+Embedding,"80 % column values have their Glove embedding distance to ""green"" < 5.0","values whose Glove embedding distance to ""green"" > 9.5",0.9780431804262996
+Embedding,"80 % column values have their Glove embedding distance to ""green"" < 5.0","values whose Glove embedding distance to ""green"" > 10.5",0.9780431804262996
+CTA,"80 % column values have their Doduo ""day""-classifier scores >= 4","values whose Doduo ""day""-classifier scores <= -1""",0.9780395290113116
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""ba"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""ba"" > 1.3",0.977937799183346
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""british columbia"" < 1.1","values whose Sentence-BERT embedding distance to ""british columbia"" > 1.3",0.9776306843953245
+Embedding,"80 % column values have their Glove embedding distance to ""widow"" < 5.5","values whose Glove embedding distance to ""widow"" > 9.0",0.9775967850836061
+CTA,"80 % column values have their Doduo ""team""-classifier scores >= 4","values whose Doduo ""team""-classifier scores <= -1.5""",0.9773495343491136
+CTA,"80 % column values have their Doduo ""category""-classifier scores >= 4","values whose Doduo ""category""-classifier scores <= -1.5""",0.9773359114332294
+Pattern,"95 % of values match pattern ""^[\+\-\d\.,]+ [a-zA-Z]+ [\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [a-zA-Z]+ [\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9772473134582946
+CTA,"80 % column values have their Sherlock ""team""-classifier scores >= 0.2","values whose Sherlock ""team""-classifier scores <= 0",0.9772456789950358
+Embedding,"80 % column values have their Glove embedding distance to ""carol"" < 4.5","values whose Glove embedding distance to ""carol"" > 8.5",0.9764857731142297
+CTA,"80 % column values have their Sherlock ""state""-classifier scores >= 0.8","values whose Sherlock ""state""-classifier scores <= 0",0.97640897657601
+CTA,"80 % column values have their Sherlock ""state""-classifier scores >= 0.8","values whose Sherlock ""state""-classifier scores <= 0.002",0.97640897657601
+CTA,"80 % column values have their Doduo ""type""-classifier scores >= 4","values whose Doduo ""type""-classifier scores <= -1.5""",0.9762561145559291
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9761218115739002
+Embedding,"80 % column values have their Glove embedding distance to ""brown"" < 4.5","values whose Glove embedding distance to ""brown"" > 6.5",0.9760517764499416
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""antarctica"" < 1.1","values whose Sentence-BERT embedding distance to ""antarctica"" > 1.35",0.9759921006641432
+Embedding,"80 % column values have their Glove embedding distance to ""manchester"" < 5.5","values whose Glove embedding distance to ""manchester"" > 12.0",0.9756486281045014
+Embedding,"80 % column values have their Glove embedding distance to ""mississippi"" < 5.5","values whose Glove embedding distance to ""mississippi"" > 10.5",0.9754780216452122
+Embedding,"80 % column values have their Glove embedding distance to ""mississippi"" < 5.5","values whose Glove embedding distance to ""mississippi"" > 11.0",0.9754780216452122
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""canada"" < 1.0","values whose Sentence-BERT embedding distance to ""canada"" > 1.2750000000000001",0.9754570970175417
+Embedding,"80 % column values have their Glove embedding distance to ""hawaii"" < 5.5","values whose Glove embedding distance to ""hawaii"" > 9.0",0.9753636498277387
+Embedding,"80 % column values have their Glove embedding distance to ""hawaii"" < 5.5","values whose Glove embedding distance to ""hawaii"" > 10.0",0.9753636498277387
+CTA,"80 % column values have their Doduo ""country""-classifier scores >= 4.5","values whose Doduo ""country""-classifier scores <= -1""",0.97518367895108
+Embedding,"80 % column values have their Glove embedding distance to ""washington"" < 5.0","values whose Glove embedding distance to ""washington"" > 7.5",0.9748657998480601
+Embedding,"80 % column values have their Glove embedding distance to ""black"" < 5.5","values whose Glove embedding distance to ""black"" > 8.5",0.9746586203353308
+Embedding,"80 % column values have their Glove embedding distance to ""washington"" < 5.5","values whose Glove embedding distance to ""washington"" > 9.0",0.9745651458803085
+Embedding,"80 % column values have their Glove embedding distance to ""washington"" < 5.5","values whose Glove embedding distance to ""washington"" > 10.5",0.9745651458803085
+Pattern,"98 % of values match pattern ""^[\+\-\d\.,]+_[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+_[\+\-\d\.,]+$""",0.9745136797290207
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""minnesota"" < 1.1","values whose Sentence-BERT embedding distance to ""minnesota"" > 1.35",0.9738162730124797
+Embedding,"80 % column values have their Glove embedding distance to ""brown"" < 5.0","values whose Glove embedding distance to ""brown"" > 10.5",0.973203901770938
+Embedding,"80 % column values have their Glove embedding distance to ""europe"" < 4.5","values whose Glove embedding distance to ""europe"" > 7.5",0.9729162671599869
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""",0.9728042692594453
+Embedding,"80 % column values have their Glove embedding distance to ""australia"" < 5.5","values whose Glove embedding distance to ""australia"" > 8.5",0.9725829612511709
+Embedding,"80 % column values have their Glove embedding distance to ""australia"" < 5.5","values whose Glove embedding distance to ""australia"" > 9.0",0.9725829612511709
+Embedding,"80 % column values have their Glove embedding distance to ""australia"" < 5.5","values whose Glove embedding distance to ""australia"" > 10.5",0.9725829612511709
+Embedding,"80 % column values have their Glove embedding distance to ""egypt"" < 5.5","values whose Glove embedding distance to ""egypt"" > 10.5",0.9724378707693317
+CTA,"80 % column values have their Sherlock ""team""-classifier scores >= 0.15000000000000002","values whose Sherlock ""team""-classifier scores <= 0",0.9720739993924166
+Embedding,"80 % column values have their Glove embedding distance to ""shirt"" < 5.5","values whose Glove embedding distance to ""shirt"" > 11.0",0.9717200032979588
+CTA,"80 % column values have their Doduo ""country""-classifier scores >= 4","values whose Doduo ""country""-classifier scores <= -1""",0.9714222509119419
+Embedding,"80 % column values have their Glove embedding distance to ""blue"" < 5.5","values whose Glove embedding distance to ""blue"" > 9.5",0.9713589152722899
+Embedding,"80 % column values have their Glove embedding distance to ""blue"" < 5.5","values whose Glove embedding distance to ""blue"" > 12.0",0.9713589152722899
+Embedding,"80 % column values have their Glove embedding distance to ""blue"" < 5.5","values whose Glove embedding distance to ""blue"" > 9.0",0.9713589152722899
+CTA,"80 % column values have their Sherlock ""day""-classifier scores >= 0.45000000000000007","values whose Sherlock ""day""-classifier scores <= 0",0.9712974142568529
+Embedding,"80 % column values have their Glove embedding distance to ""maryland"" < 5.0","values whose Glove embedding distance to ""maryland"" > 8.0",0.9712822056701736
+Pattern,"97 % of values match pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9709881361318405
+CTA,"80 % column values have their Doduo ""state""-classifier scores >= 4","values whose Doduo ""state""-classifier scores <= -2""",0.9706774416266244
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""france"" < 1.1","values whose Sentence-BERT embedding distance to ""france"" > 1.3250000000000002",0.9704025210765916
+CTA,"80 % column values have their Doduo ""state""-classifier scores >= 4.5","values whose Doduo ""state""-classifier scores <= -1.5""",0.9703626430426113
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""british columbia"" < 1.1","values whose Sentence-BERT embedding distance to ""british columbia"" > 1.2750000000000001",0.9703430785659565
+Embedding,"80 % column values have their Glove embedding distance to ""indiana"" < 4.5","values whose Glove embedding distance to ""indiana"" > 8.5",0.9700582252800168
+Embedding,"80 % column values have their Glove embedding distance to ""indiana"" < 4.5","values whose Glove embedding distance to ""indiana"" > 10.0",0.9700582252800168
+Embedding,"80 % column values have their Glove embedding distance to ""indiana"" < 4.5","values whose Glove embedding distance to ""indiana"" > 12.0",0.9700582252800168
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""argentina"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""argentina"" > 1.35",0.9700121961972246
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""france"" < 1.0","values whose Sentence-BERT embedding distance to ""france"" > 1.3",0.9695722180024025
+Embedding,"80 % column values have their Glove embedding distance to ""asia"" < 5.5","values whose Glove embedding distance to ""asia"" > 8.5",0.9695135127352674
+Embedding,"80 % column values have their Glove embedding distance to ""james"" < 5.0","values whose Glove embedding distance to ""james"" > 12.0",0.9694095455735111
+Embedding,"80 % column values have their Glove embedding distance to ""james"" < 5.0","values whose Glove embedding distance to ""james"" > 10.0",0.9694095455735111
+Embedding,"80 % column values have their Glove embedding distance to ""james"" < 5.0","values whose Glove embedding distance to ""james"" > 11.5",0.9694095455735111
+Pattern,"98 % of values match pattern ""^[a-zA-Z]+ [a-zA-Z]+ [\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+ [a-zA-Z]+ [\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9692282059826212
+Pattern,"98 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9690018866123292
+Embedding,"80 % column values have their Glove embedding distance to ""australia"" < 5.5","values whose Glove embedding distance to ""australia"" > 7.5",0.9687720150721235
+Embedding,"80 % column values have their Glove embedding distance to ""march"" < 6.0","values whose Glove embedding distance to ""march"" > 9.0",0.9686594185703356
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""se"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""se"" > 1.3",0.9685683388345491
+Pattern,"80 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+ [a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+ [a-zA-Z]+$""",0.9684705387979147
+Embedding,"80 % column values have their Glove embedding distance to ""west"" < 5.0","values whose Glove embedding distance to ""west"" > 7.5",0.9683053480913877
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""liverpool"" < 1.0","values whose Sentence-BERT embedding distance to ""liverpool"" > 1.3",0.9682096231761248
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""liverpool"" < 1.0","values whose Sentence-BERT embedding distance to ""liverpool"" > 1.2750000000000001",0.9682096231761248
+Embedding,"80 % column values have their Glove embedding distance to ""group"" < 5.5","values whose Glove embedding distance to ""group"" > 10.5",0.9680794359227837
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""nurse"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""nurse"" > 1.35",0.9680350165339057
+Embedding,"80 % column values have their Glove embedding distance to ""australia"" < 6.0","values whose Glove embedding distance to ""australia"" > 9.0",0.9679503200992112
+Embedding,"80 % column values have their Glove embedding distance to ""australia"" < 6.0","values whose Glove embedding distance to ""australia"" > 10.0",0.9679503200992112
+Embedding,"80 % column values have their Glove embedding distance to ""australia"" < 6.0","values whose Glove embedding distance to ""australia"" > 9.5",0.9679503200992112
+Embedding,"80 % column values have their Glove embedding distance to ""mon"" < 6.5","values whose Glove embedding distance to ""mon"" > 8.0",0.9678062096119832
+Embedding,"80 % column values have their Glove embedding distance to ""hungary"" < 5.5","values whose Glove embedding distance to ""hungary"" > 9.0",0.9677291256858099
+Embedding,"80 % column values have their Glove embedding distance to ""europe"" < 5.0","values whose Glove embedding distance to ""europe"" > 8.0",0.9676374970113101
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""canada"" < 1.1","values whose Sentence-BERT embedding distance to ""canada"" > 1.3250000000000002",0.9675978889642634
+Embedding,"80 % column values have their Glove embedding distance to ""argentina"" < 6.0","values whose Glove embedding distance to ""argentina"" > 12.0",0.9674728024633252
+Embedding,"80 % column values have their Glove embedding distance to ""cat"" < 5.0","values whose Glove embedding distance to ""cat"" > 11.5",0.9668647121590099
+Embedding,"80 % column values have their Glove embedding distance to ""cat"" < 5.0","values whose Glove embedding distance to ""cat"" > 8.0",0.9668647121590099
+Embedding,"80 % column values have their Glove embedding distance to ""cat"" < 5.0","values whose Glove embedding distance to ""cat"" > 10.0",0.9668647121590099
+CTA,"80 % column values have their Doduo ""category""-classifier scores >= 4.5","values whose Doduo ""category""-classifier scores <= -1""",0.9667472300306078
+Embedding,"80 % column values have their Glove embedding distance to ""southampton"" < 5.5","values whose Glove embedding distance to ""southampton"" > 10.5",0.9665698552359576
+CTA,"80 % column values have their Doduo ""type""-classifier scores >= 4","values whose Doduo ""type""-classifier scores <= -1""",0.9665534074468793
+CTA,"80 % column values have their Doduo ""status""-classifier scores >= 4","values whose Doduo ""status""-classifier scores <= -1""",0.9665487070887204
+CTA,"80 % column values have their Doduo ""status""-classifier scores >= 4","values whose Doduo ""status""-classifier scores <= -1.5""",0.9665487070887204
+Embedding,"80 % column values have their Glove embedding distance to ""denmark"" < 5.0","values whose Glove embedding distance to ""denmark"" > 9.0",0.9664725120427382
+Embedding,"80 % column values have their Glove embedding distance to ""denmark"" < 5.0","values whose Glove embedding distance to ""denmark"" > 11.0",0.9664725120427382
+Embedding,"80 % column values have their Glove embedding distance to ""review"" < 5.5","values whose Glove embedding distance to ""review"" > 10.0",0.9663916557143697
+Embedding,"80 % column values have their Glove embedding distance to ""review"" < 5.5","values whose Glove embedding distance to ""review"" > 9.0",0.9663916557143697
+Embedding,"80 % column values have their Glove embedding distance to ""review"" < 5.5","values whose Glove embedding distance to ""review"" > 8.5",0.9663916557143697
+Embedding,"80 % column values have their Glove embedding distance to ""anne"" < 5.5","values whose Glove embedding distance to ""anne"" > 11.0",0.9663289547560175
+Embedding,"80 % column values have their Glove embedding distance to ""tiger"" < 6.0","values whose Glove embedding distance to ""tiger"" > 8.5",0.9662076503186696
+Embedding,"80 % column values have their Glove embedding distance to ""group"" < 6.0","values whose Glove embedding distance to ""group"" > 10.0",0.9660847403102594
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""west indies"" < 1.1","values whose Sentence-BERT embedding distance to ""west indies"" > 1.3",0.9653415324210405
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""lebanon"" < 1.1","values whose Sentence-BERT embedding distance to ""lebanon"" > 1.3250000000000002",0.9653192592450744
+CTA,"80 % column values have their Doduo ""team""-classifier scores >= 4.5","values whose Doduo ""team""-classifier scores <= -1""",0.9652006905564552
+Pattern,"98 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""",0.9650588950808385
+Embedding,"80 % column values have their Glove embedding distance to ""slovenia"" < 5.5","values whose Glove embedding distance to ""slovenia"" > 7.5",0.964704671743157
+Embedding,"80 % column values have their Glove embedding distance to ""slovenia"" < 5.5","values whose Glove embedding distance to ""slovenia"" > 7.0",0.964704671743157
+Embedding,"80 % column values have their Glove embedding distance to ""assault"" < 6.5","values whose Glove embedding distance to ""assault"" > 10.5",0.9644987218130762
+Embedding,"80 % column values have their Glove embedding distance to ""uk"" < 6.0","values whose Glove embedding distance to ""uk"" > 11.5",0.9643566808276515
+Embedding,"80 % column values have their Glove embedding distance to ""uk"" < 6.0","values whose Glove embedding distance to ""uk"" > 12.0",0.9643566808276515
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""gold"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""gold"" > 1.3",0.9642806457126104
+Embedding,"80 % column values have their Glove embedding distance to ""dec"" < 5.5","values whose Glove embedding distance to ""dec"" > 11.0",0.9641016877217916
+Embedding,"80 % column values have their Glove embedding distance to ""dec"" < 5.5","values whose Glove embedding distance to ""dec"" > 11.5",0.9641016877217916
+Embedding,"80 % column values have their Glove embedding distance to ""april"" < 6.0","values whose Glove embedding distance to ""april"" > 8.0",0.9639640724744547
+Embedding,"80 % column values have their Glove embedding distance to ""europe"" < 5.0","values whose Glove embedding distance to ""europe"" > 7.5",0.9638229373406092
+Embedding,"80 % column values have their Glove embedding distance to ""mon"" < 7.0","values whose Glove embedding distance to ""mon"" > 10.0",0.9638190225097745
+Embedding,"80 % column values have their Glove embedding distance to ""mon"" < 7.0","values whose Glove embedding distance to ""mon"" > 12.0",0.9638190225097745
+Embedding,"80 % column values have their Glove embedding distance to ""white"" < 5.5","values whose Glove embedding distance to ""white"" > 8.0",0.9635532936411427
+Embedding,"80 % column values have their Glove embedding distance to ""rain"" < 6.5","values whose Glove embedding distance to ""rain"" > 10.5",0.9635006555328675
+Embedding,"80 % column values have their Glove embedding distance to ""rain"" < 6.5","values whose Glove embedding distance to ""rain"" > 11.0",0.9635006555328675
+Embedding,"80 % column values have their Glove embedding distance to ""india"" < 6.0","values whose Glove embedding distance to ""india"" > 11.5",0.9632569014942399
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""chicago"" < 1.1","values whose Sentence-BERT embedding distance to ""chicago"" > 1.3250000000000002",0.9632148373624374
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9631959354897175
+Embedding,"80 % column values have their Glove embedding distance to ""kent"" < 5.0","values whose Glove embedding distance to ""kent"" > 10.5",0.9631558459583421
+Embedding,"80 % column values have their Glove embedding distance to ""manchester"" < 6.0","values whose Glove embedding distance to ""manchester"" > 10.5",0.9630140090564778
+Embedding,"80 % column values have their Glove embedding distance to ""with"" < 5.0","values whose Glove embedding distance to ""with"" > 10.5",0.9627747405519128
+Embedding,"80 % column values have their Glove embedding distance to ""asia"" < 5.0","values whose Glove embedding distance to ""asia"" > 7.5",0.9624751101221807
+CTA,"80 % column values have their Sherlock ""category""-classifier scores >= 0.1","values whose Sherlock ""category""-classifier scores <= 0",0.9624751101221807
+Embedding,"80 % column values have their Glove embedding distance to ""us"" < 6.0","values whose Glove embedding distance to ""us"" > 11.5",0.9623828501450971
+Pattern,"97 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9622596534831135
+Embedding,"80 % column values have their Glove embedding distance to ""medium"" < 6.0","values whose Glove embedding distance to ""medium"" > 10.0",0.9621697400140691
+Embedding,"80 % column values have their Glove embedding distance to ""medium"" < 6.0","values whose Glove embedding distance to ""medium"" > 9.0",0.9621697400140691
+Embedding,"80 % column values have their Glove embedding distance to ""malaysia"" < 6.0","values whose Glove embedding distance to ""malaysia"" > 8.0",0.9619805510922385
+Embedding,"80 % column values have their Glove embedding distance to ""eight"" < 6.0","values whose Glove embedding distance to ""eight"" > 10.5",0.9619802595746278
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""scotland"" < 1.1","values whose Sentence-BERT embedding distance to ""scotland"" > 1.3",0.9619298731850133
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""argentina"" < 1.0","values whose Sentence-BERT embedding distance to ""argentina"" > 1.25",0.9619046107955447
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""argentina"" < 1.0","values whose Sentence-BERT embedding distance to ""argentina"" > 1.2750000000000001",0.9619046107955447
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""argentina"" < 1.0","values whose Sentence-BERT embedding distance to ""argentina"" > 1.3",0.9619046107955447
+Embedding,"80 % column values have their Glove embedding distance to ""wood"" < 5.5","values whose Glove embedding distance to ""wood"" > 11.5",0.961660172853932
+Embedding,"80 % column values have their Glove embedding distance to ""wood"" < 5.5","values whose Glove embedding distance to ""wood"" > 10.0",0.961660172853932
+Embedding,"80 % column values have their Glove embedding distance to ""mexico"" < 5.5","values whose Glove embedding distance to ""mexico"" > 12.0",0.9613677232479201
+Pattern,"98 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9612177538078797
+Embedding,"80 % column values have their Glove embedding distance to ""march"" < 6.0","values whose Glove embedding distance to ""march"" > 8.0",0.9610580242981758
+Embedding,"80 % column values have their Glove embedding distance to ""west"" < 6.0","values whose Glove embedding distance to ""west"" > 10.5",0.9609281513880301
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""chicago"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""chicago"" > 1.35",0.9609227571656854
+Pattern,"99 % of values match pattern ""^[a-zA-Z]+[\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+[\+\-\d\.,]+$""",0.9609078658662547
+CTA,"80 % column values have their Doduo ""team""-classifier scores >= 4","values whose Doduo ""team""-classifier scores <= -1""",0.9608478958271083
+Embedding,"80 % column values have their Glove embedding distance to ""brown"" < 4.5","values whose Glove embedding distance to ""brown"" > 6.0",0.9608423235490162
+Embedding,"80 % column values have their Glove embedding distance to ""sometimes"" < 5.0","values whose Glove embedding distance to ""sometimes"" > 12.0",0.9608286717783455
+Embedding,"80 % column values have their Glove embedding distance to ""hp"" < 6.0","values whose Glove embedding distance to ""hp"" > 9.5",0.9606902324039694
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""canada"" < 1.0","values whose Sentence-BERT embedding distance to ""canada"" > 1.25",0.960680858429424
+CTA,"80 % column values have their Doduo ""category""-classifier scores >= 4","values whose Doduo ""category""-classifier scores <= -1""",0.9606447278802995
+Embedding,"80 % column values have their Glove embedding distance to ""white"" < 6.0","values whose Glove embedding distance to ""white"" > 11.0",0.9605999474348077
+Embedding,"80 % column values have their Glove embedding distance to ""white"" < 6.0","values whose Glove embedding distance to ""white"" > 12.0",0.9605999474348077
+Embedding,"80 % column values have their Glove embedding distance to ""australia"" < 6.0","values whose Glove embedding distance to ""australia"" > 8.0",0.9605635761517898
+Embedding,"80 % column values have their Glove embedding distance to ""blocked"" < 5.5","values whose Glove embedding distance to ""blocked"" > 12.0",0.9605312712815144
+Embedding,"80 % column values have their Glove embedding distance to ""blocked"" < 5.5","values whose Glove embedding distance to ""blocked"" > 10.0",0.9605312712815144
+Embedding,"80 % column values have their Glove embedding distance to ""blocked"" < 5.5","values whose Glove embedding distance to ""blocked"" > 10.5",0.9605312712815144
+Embedding,"80 % column values have their Glove embedding distance to ""blocked"" < 5.5","values whose Glove embedding distance to ""blocked"" > 11.0",0.9605312712815144
+Pattern,"97 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""",0.9605238752635414
+Embedding,"80 % column values have their Glove embedding distance to ""saturday"" < 6.0","values whose Glove embedding distance to ""saturday"" > 8.0",0.9604069046505799
+Embedding,"80 % column values have their Glove embedding distance to ""mississippi"" < 5.0","values whose Glove embedding distance to ""mississippi"" > 7.0",0.9602513910609407
+Embedding,"80 % column values have their Glove embedding distance to ""miles"" < 7.0","values whose Glove embedding distance to ""miles"" > 10.5",0.9602275817715036
+Embedding,"80 % column values have their Glove embedding distance to ""miles"" < 7.0","values whose Glove embedding distance to ""miles"" > 11.5",0.9602275817715036
+Embedding,"80 % column values have their Glove embedding distance to ""close"" < 5.0","values whose Glove embedding distance to ""close"" > 10.0",0.960147154595896
+Embedding,"80 % column values have their Glove embedding distance to ""europe"" < 4.5","values whose Glove embedding distance to ""europe"" > 7.0",0.9600963092363004
+Embedding,"80 % column values have their Glove embedding distance to ""asia"" < 5.5","values whose Glove embedding distance to ""asia"" > 7.5",0.9595951953053343
+Pattern,"99 % of values match pattern ""^[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+$""",0.9594945677846008
+Embedding,"80 % column values have their Glove embedding distance to ""hungary"" < 5.0","values whose Glove embedding distance to ""hungary"" > 6.5",0.9594945677846008
+Pattern,"98 % of values match pattern ""^[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+$""",0.9594945677846008
+Embedding,"80 % column values have their Glove embedding distance to ""wednesday"" < 6.0","values whose Glove embedding distance to ""wednesday"" > 8.0",0.9594156776737961
+Embedding,"80 % column values have their Glove embedding distance to ""white"" < 6.0","values whose Glove embedding distance to ""white"" > 9.0",0.9593796002137341
+Embedding,"80 % column values have their Glove embedding distance to ""turkey"" < 5.5","values whose Glove embedding distance to ""turkey"" > 7.5",0.9593505134590969
+Embedding,"80 % column values have their Glove embedding distance to ""europe"" < 5.5","values whose Glove embedding distance to ""europe"" > 8.0",0.959061363511106
+Embedding,"80 % column values have their Glove embedding distance to ""parks"" < 6.0","values whose Glove embedding distance to ""parks"" > 10.5",0.9589974959478249
+Embedding,"80 % column values have their Glove embedding distance to ""parks"" < 6.0","values whose Glove embedding distance to ""parks"" > 11.0",0.9589974959478249
+Embedding,"80 % column values have their Glove embedding distance to ""parks"" < 6.0","values whose Glove embedding distance to ""parks"" > 11.5",0.9589974959478249
+Embedding,"80 % column values have their Glove embedding distance to ""may"" < 5.0","values whose Glove embedding distance to ""may"" > 10.5",0.9588662235916992
+Embedding,"80 % column values have their Glove embedding distance to ""sweden"" < 6.0","values whose Glove embedding distance to ""sweden"" > 9.0",0.9584692056190213
+Embedding,"80 % column values have their Glove embedding distance to ""sweden"" < 6.0","values whose Glove embedding distance to ""sweden"" > 12.0",0.9584692056190213
+Pattern,"99 % of values match pattern ""^[a-zA-Z]+ [\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+ [\+\-\d\.,]+$""",0.9582092510187161
+Embedding,"80 % column values have their Glove embedding distance to ""indiana"" < 4.5","values whose Glove embedding distance to ""indiana"" > 7.0",0.9579970939519051
+CTA,"80 % column values have their Sherlock ""day""-classifier scores >= 0.45000000000000007","values whose Sherlock ""day""-classifier scores <= 0.05",0.9577135163674925
+Pattern,"97 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9576838270723426
+Embedding,"80 % column values have their Glove embedding distance to ""new"" < 5.5","values whose Glove embedding distance to ""new"" > 11.0",0.9575243260555034
+Embedding,"80 % column values have their Glove embedding distance to ""new"" < 5.5","values whose Glove embedding distance to ""new"" > 12.0",0.9575243260555034
+Embedding,"80 % column values have their Glove embedding distance to ""new"" < 5.5","values whose Glove embedding distance to ""new"" > 10.5",0.9575243260555034
+Embedding,"80 % column values have their Glove embedding distance to ""may"" < 5.0","values whose Glove embedding distance to ""may"" > 8.0",0.9573868484292092
+Embedding,"80 % column values have their Glove embedding distance to ""brown"" < 5.5","values whose Glove embedding distance to ""brown"" > 11.5",0.9573771637279691
+Embedding,"80 % column values have their Glove embedding distance to ""brown"" < 5.5","values whose Glove embedding distance to ""brown"" > 10.5",0.9573771637279691
+Embedding,"80 % column values have their Glove embedding distance to ""ma"" < 6.0","values whose Glove embedding distance to ""ma"" > 10.5",0.9571743687962088
+Embedding,"80 % column values have their Glove embedding distance to ""spain"" < 5.5","values whose Glove embedding distance to ""spain"" > 9.0",0.957055295377321
+Embedding,"80 % column values have their Glove embedding distance to ""spain"" < 5.5","values whose Glove embedding distance to ""spain"" > 12.0",0.957055295377321
+Embedding,"80 % column values have their Glove embedding distance to ""spain"" < 5.5","values whose Glove embedding distance to ""spain"" > 8.5",0.957055295377321
+Embedding,"80 % column values have their Glove embedding distance to ""spanish"" < 6.0","values whose Glove embedding distance to ""spanish"" > 8.5",0.9569919327843339
+Embedding,"80 % column values have their Glove embedding distance to ""brazil"" < 5.5","values whose Glove embedding distance to ""brazil"" > 11.5",0.9569817905005547
+Embedding,"80 % column values have their Glove embedding distance to ""brazil"" < 5.5","values whose Glove embedding distance to ""brazil"" > 9.0",0.9569817905005547
+Embedding,"80 % column values have their Glove embedding distance to ""other"" < 5.5","values whose Glove embedding distance to ""other"" > 11.0",0.9568788638008283
+Embedding,"80 % column values have their Glove embedding distance to ""other"" < 5.5","values whose Glove embedding distance to ""other"" > 11.5",0.9568788638008283
+Embedding,"80 % column values have their Glove embedding distance to ""other"" < 5.5","values whose Glove embedding distance to ""other"" > 12.0",0.9568788638008283
+Embedding,"80 % column values have their Glove embedding distance to ""poor"" < 5.5","values whose Glove embedding distance to ""poor"" > 12.0",0.9568220980692022
+Embedding,"80 % column values have their Glove embedding distance to ""poor"" < 5.5","values whose Glove embedding distance to ""poor"" > 9.5",0.9568220980692022
+Embedding,"80 % column values have their Glove embedding distance to ""black"" < 6.0","values whose Glove embedding distance to ""black"" > 9.5",0.9567440540980515
+Embedding,"80 % column values have their Glove embedding distance to ""black"" < 6.0","values whose Glove embedding distance to ""black"" > 10.5",0.9567440540980515
+Embedding,"80 % column values have their Glove embedding distance to ""kent"" < 5.5","values whose Glove embedding distance to ""kent"" > 10.5",0.9566286421467776
+Embedding,"80 % column values have their Glove embedding distance to ""other"" < 5.5","values whose Glove embedding distance to ""other"" > 9.0",0.9560450138484294
+Embedding,"80 % column values have their Glove embedding distance to ""hp"" < 6.5","values whose Glove embedding distance to ""hp"" > 9.5",0.9558192478467353
+Embedding,"80 % column values have their Glove embedding distance to ""tallahassee"" < 5.5","values whose Glove embedding distance to ""tallahassee"" > 10.5",0.9557418629949381
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9555756933945477
+Embedding,"80 % column values have their Glove embedding distance to ""short"" < 5.5","values whose Glove embedding distance to ""short"" > 9.0",0.9555515972147729
+Embedding,"80 % column values have their Glove embedding distance to ""short"" < 5.5","values whose Glove embedding distance to ""short"" > 9.5",0.9555515972147729
+Pattern,"95 % of values match pattern ""^[a-zA-Z]+ [a-zA-Z]+ [\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+ [a-zA-Z]+ [\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9550280920086621
+Pattern,"85 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+ [a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+ [a-zA-Z]+$""",0.9550280920086621
+Embedding,"80 % column values have their Glove embedding distance to ""washington"" < 5.0","values whose Glove embedding distance to ""washington"" > 6.5",0.9549767455636424
+CTA,"90 % column values have their Sherlock ""state""-classifier scores >= 0.1","values whose Sherlock ""state""-classifier scores <= 0.005",0.9547468035530362
+Pattern,"95 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9537520582378413
+Function,"99 % of values return True on function ""validate_email"" in Dataprep","values that return False on function ""validate_email"" in Dataprep",0.953723863346526
+Pattern,"97 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9537206165130592
+Embedding,"80 % column values have their Glove embedding distance to ""washington"" < 6.0","values whose Glove embedding distance to ""washington"" > 12.0",0.9535960238115808
+Pattern,"99 % of values match pattern ""^[a-zA-Z]+_[\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+_[\+\-\d\.,]+$""",0.953557889531533
+Embedding,"80 % column values have their Glove embedding distance to ""southampton"" < 5.0","values whose Glove embedding distance to ""southampton"" > 7.0",0.9532979828928706
+Embedding,"80 % column values have their Glove embedding distance to ""blue"" < 4.5","values whose Glove embedding distance to ""blue"" > 7.5",0.952382104532502
+Embedding,"80 % column values have their Glove embedding distance to ""rock"" < 6.5","values whose Glove embedding distance to ""rock"" > 12.0",0.9516551668617954
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""blue"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""blue"" > 1.3",0.9515381511459247
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9515149392077952
+Embedding,"80 % column values have their Glove embedding distance to ""education"" < 5.5","values whose Glove embedding distance to ""education"" > 7.5",0.9512744540953
+Embedding,"80 % column values have their Glove embedding distance to ""spain"" < 5.5","values whose Glove embedding distance to ""spain"" > 7.5",0.9505812594361365
+CTA,"80 % column values have their Doduo ""state""-classifier scores >= 4.5","values whose Doduo ""state""-classifier scores <= -1""",0.9505442207880529
+Embedding,"80 % column values have their Glove embedding distance to ""na"" < 6.5","values whose Glove embedding distance to ""na"" > 10.5",0.9498533598765819
+Embedding,"80 % column values have their Glove embedding distance to ""na"" < 6.5","values whose Glove embedding distance to ""na"" > 9.0",0.9498533598765819
+Embedding,"80 % column values have their Glove embedding distance to ""blue"" < 5.0","values whose Glove embedding distance to ""blue"" > 7.5",0.9496953644770505
+Embedding,"80 % column values have their Glove embedding distance to ""age"" < 6.0","values whose Glove embedding distance to ""age"" > 11.0",0.9495168731673104
+Embedding,"80 % column values have their Glove embedding distance to ""no"" < 5.5","values whose Glove embedding distance to ""no"" > 10.0",0.9495158133064907
+Embedding,"80 % column values have their Glove embedding distance to ""netherlands"" < 5.5","values whose Glove embedding distance to ""netherlands"" > 9.0",0.9493522752666997
+Embedding,"80 % column values have their Glove embedding distance to ""netherlands"" < 5.5","values whose Glove embedding distance to ""netherlands"" > 10.0",0.9493522752666997
+Pattern,"95 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""",0.949090695526552
+CTA,"80 % column values have their Sherlock ""description""-classifier scores >= 0.2","values whose Sherlock ""description""-classifier scores <= 0",0.9489636684006758
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""france"" < 1.0","values whose Sentence-BERT embedding distance to ""france"" > 1.2750000000000001",0.9489154185434518
+CTA,"80 % column values have their Sherlock ""description""-classifier scores >= 0.25","values whose Sherlock ""description""-classifier scores <= 0",0.9488198608200019
+Embedding,"80 % column values have their Glove embedding distance to ""wednesday"" < 4.5","values whose Glove embedding distance to ""wednesday"" > 6.5",0.9486702582520951
+Embedding,"80 % column values have their Glove embedding distance to ""wednesday"" < 4.5","values whose Glove embedding distance to ""wednesday"" > 5.5",0.9486702582520951
+Embedding,"80 % column values have their Glove embedding distance to ""event"" < 6.5","values whose Glove embedding distance to ""event"" > 11.5",0.9486349266494055
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+ [a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+ [a-zA-Z]+$""",0.9485643409297602
+Embedding,"80 % column values have their Glove embedding distance to ""ford"" < 5.5","values whose Glove embedding distance to ""ford"" > 11.0",0.948357850058937
+Embedding,"80 % column values have their Glove embedding distance to ""non"" < 5.5","values whose Glove embedding distance to ""non"" > 8.0",0.9478994805007654
+Embedding,"80 % column values have their Glove embedding distance to ""april"" < 6.0","values whose Glove embedding distance to ""april"" > 7.5",0.9478734171160708
+Embedding,"80 % column values have their Glove embedding distance to ""americas"" < 5.0","values whose Glove embedding distance to ""americas"" > 6.5",0.9475933682143154
+Embedding,"80 % column values have their Glove embedding distance to ""denmark"" < 6.0","values whose Glove embedding distance to ""denmark"" > 8.5",0.9474858609202113
+Embedding,"80 % column values have their Glove embedding distance to ""denmark"" < 6.0","values whose Glove embedding distance to ""denmark"" > 9.5",0.9474858609202113
+Embedding,"80 % column values have their Glove embedding distance to ""action"" < 5.5","values whose Glove embedding distance to ""action"" > 11.0",0.9474818875787985
+Embedding,"80 % column values have their Glove embedding distance to ""action"" < 5.5","values whose Glove embedding distance to ""action"" > 10.0",0.9474818875787985
+Embedding,"80 % column values have their Glove embedding distance to ""australia"" < 6.0","values whose Glove embedding distance to ""australia"" > 7.5",0.9473701004041664
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+ [a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+ [a-zA-Z]+$""",0.9471869530222917
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""canada"" < 1.0","values whose Sentence-BERT embedding distance to ""canada"" > 1.225",0.9470562844873174
+Embedding,"80 % column values have their Glove embedding distance to ""aa"" < 6.0","values whose Glove embedding distance to ""aa"" > 9.0",0.9468994283055188
+Embedding,"80 % column values have their Glove embedding distance to ""red"" < 6.0","values whose Glove embedding distance to ""red"" > 11.5",0.9468901758637353
+Embedding,"80 % column values have their Glove embedding distance to ""red"" < 6.0","values whose Glove embedding distance to ""red"" > 11.0",0.9468901758637353
+CTA,"80 % column values have their Doduo ""state""-classifier scores >= 4","values whose Doduo ""state""-classifier scores <= -1""",0.9465899179714197
+Embedding,"80 % column values have their Glove embedding distance to ""saturday"" < 3.5","values whose Glove embedding distance to ""saturday"" > 5.5",0.9465268034119507
+Embedding,"80 % column values have their Glove embedding distance to ""sunday"" < 3.5","values whose Glove embedding distance to ""sunday"" > 5.5",0.9465268034119507
+Embedding,"80 % column values have their Glove embedding distance to ""shirt"" < 5.5","values whose Glove embedding distance to ""shirt"" > 7.5",0.9464388294934194
+CTA,"80 % column values have their Sherlock ""region""-classifier scores >= 0.1","values whose Sherlock ""region""-classifier scores <= 0",0.9463289621260207
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""eric"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""eric"" > 1.3250000000000002",0.9461244024073321
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""scotland"" < 1.0","values whose Sentence-BERT embedding distance to ""scotland"" > 1.2750000000000001",0.9460425961812451
+Embedding,"80 % column values have their Glove embedding distance to ""no"" < 5.5","values whose Glove embedding distance to ""no"" > 8.5",0.9459860295083348
+Embedding,"80 % column values have their Glove embedding distance to ""red"" < 5.5","values whose Glove embedding distance to ""red"" > 7.5",0.9459100666665974
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""chongqing"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""chongqing"" > 1.35",0.9457329287732178
+Embedding,"80 % column values have their Glove embedding distance to ""carol"" < 5.0","values whose Glove embedding distance to ""carol"" > 10.0",0.9456652317240306
+Pattern,"93 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.945486874619403
+Embedding,"80 % column values have their Glove embedding distance to ""ta"" < 6.0","values whose Glove embedding distance to ""ta"" > 10.0",0.9454744872976478
+Embedding,"80 % column values have their Glove embedding distance to ""development"" < 6.0","values whose Glove embedding distance to ""development"" > 11.0",0.9454343632555625
+Embedding,"80 % column values have their Glove embedding distance to ""development"" < 6.0","values whose Glove embedding distance to ""development"" > 11.5",0.9454343632555625
+Embedding,"80 % column values have their Glove embedding distance to ""development"" < 6.0","values whose Glove embedding distance to ""development"" > 12.0",0.9454343632555625
+CTA,"90 % column values have their Sherlock ""state""-classifier scores >= 0.1","values whose Sherlock ""state""-classifier scores <= 0.02",0.9453312104309163
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""hr"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""hr"" > 1.3",0.9450287416108795
+Embedding,"80 % column values have their Glove embedding distance to ""mon"" < 6.0","values whose Glove embedding distance to ""mon"" > 7.5",0.9449955327483907
+Embedding,"80 % column values have their Glove embedding distance to ""yes"" < 5.5","values whose Glove embedding distance to ""yes"" > 10.0",0.9448815367216642
+Pattern,"95 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9446432980373222
+Embedding,"80 % column values have their Glove embedding distance to ""black"" < 5.5","values whose Glove embedding distance to ""black"" > 7.5",0.944444963363695
+Embedding,"80 % column values have their Glove embedding distance to ""white"" < 5.0","values whose Glove embedding distance to ""white"" > 7.0",0.9439165092251351
+Embedding,"80 % column values have their Glove embedding distance to ""white"" < 5.0","values whose Glove embedding distance to ""white"" > 6.5",0.9439165092251351
+Embedding,"80 % column values have their Glove embedding distance to ""afghanistan"" < 6.5","values whose Glove embedding distance to ""afghanistan"" > 12.0",0.9438303600507851
+Embedding,"80 % column values have their Glove embedding distance to ""afghanistan"" < 6.5","values whose Glove embedding distance to ""afghanistan"" > 11.5",0.9438303600507851
+Pattern,"98 % of values match pattern ""^[a-zA-Z]+_[\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+_[\+\-\d\.,]+$""",0.943573191047462
+Function,"99 % of values return True on function ""validate_date"" in Dataprep","values that return False on function ""validate_date"" in Dataprep",0.9432492097159033
+Embedding,"80 % column values have their Glove embedding distance to ""financial"" < 6.5","values whose Glove embedding distance to ""financial"" > 11.0",0.943106200379737
+Pattern,"98 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+$""",0.943044331893146
+Pattern,"90 % of values match pattern ""^[a-zA-Z]+:[\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+:[\+\-\d\.,]+$""",0.9428804479503702
+Embedding,"80 % column values have their Glove embedding distance to ""mexico"" < 6.0","values whose Glove embedding distance to ""mexico"" > 12.0",0.9426346897464274
+Embedding,"80 % column values have their Glove embedding distance to ""mexico"" < 6.0","values whose Glove embedding distance to ""mexico"" > 10.5",0.9426346897464274
+Embedding,"80 % column values have their Glove embedding distance to ""mexico"" < 6.0","values whose Glove embedding distance to ""mexico"" > 11.0",0.9426346897464274
+Embedding,"80 % column values have their Glove embedding distance to ""netherlands"" < 6.0","values whose Glove embedding distance to ""netherlands"" > 8.5",0.9425302826055414
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""france"" < 1.0","values whose Sentence-BERT embedding distance to ""france"" > 1.25",0.942355189367452
+Embedding,"80 % column values have their Glove embedding distance to ""norway"" < 6.0","values whose Glove embedding distance to ""norway"" > 9.5",0.9422655049914189
+Embedding,"80 % column values have their Glove embedding distance to ""norway"" < 6.0","values whose Glove embedding distance to ""norway"" > 9.0",0.9422655049914189
+CTA,"80 % column values have their Sherlock ""category""-classifier scores >= 0.15000000000000002","values whose Sherlock ""category""-classifier scores <= 0.002",0.9421938948674933
+Embedding,"80 % column values have their Glove embedding distance to ""germany"" < 5.5","values whose Glove embedding distance to ""germany"" > 7.5",0.9419706080748756
+Embedding,"80 % column values have their Glove embedding distance to ""rent"" < 6.0","values whose Glove embedding distance to ""rent"" > 10.5",0.9417450412139937
+Embedding,"80 % column values have their Glove embedding distance to ""march"" < 4.5","values whose Glove embedding distance to ""march"" > 7.0",0.9417321024498186
+Pattern,"93 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9412628731870862
+Pattern,"90 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9412628731870862
+Embedding,"80 % column values have their Glove embedding distance to ""asia"" < 5.5","values whose Glove embedding distance to ""asia"" > 7.0",0.9410829724379864
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""argentina"" < 1.1","values whose Sentence-BERT embedding distance to ""argentina"" > 1.3",0.9407840159867833
+Pattern,"98 % of values match pattern ""^[a-zA-Z]+ [\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+ [\+\-\d\.,]+$""",0.9405200043364442
+Embedding,"80 % column values have their Glove embedding distance to ""dec"" < 6.0","values whose Glove embedding distance to ""dec"" > 10.5",0.9404856956262212
+Pattern,"85 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9402600821187398
+Pattern,"95 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""",0.9402240598003184
+Embedding,"80 % column values have their Glove embedding distance to ""australia"" < 5.5","values whose Glove embedding distance to ""australia"" > 7.0",0.9399083015510376
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""liverpool"" < 1.0","values whose Sentence-BERT embedding distance to ""liverpool"" > 1.225",0.9398087235860805
+CTA,"80 % column values have their Doduo ""position""-classifier scores >= 4","values whose Doduo ""position""-classifier scores <= -1.5""",0.9397144555232022
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+$""",0.9395498496104352
+Embedding,"80 % column values have their Glove embedding distance to ""denmark"" < 5.0","values whose Glove embedding distance to ""denmark"" > 6.5",0.9393323414727203
+Embedding,"80 % column values have their Glove embedding distance to ""athletics"" < 6.5","values whose Glove embedding distance to ""athletics"" > 12.0",0.9393154856019232
+CTA,"80 % column values have their Sherlock ""country""-classifier scores >= 0.7000000000000001","values whose Sherlock ""country""-classifier scores <= 0",0.939197476096979
+Pattern,"99 % of values match pattern ""^[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+$""","values not matching pattern ""^[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+$""",0.9390863097576823
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""antarctica"" < 1.1","values whose Sentence-BERT embedding distance to ""antarctica"" > 1.3",0.9390399106039912
+Embedding,"80 % column values have their Glove embedding distance to ""green"" < 6.0","values whose Glove embedding distance to ""green"" > 10.5",0.9390398454143829
+Embedding,"80 % column values have their Glove embedding distance to ""europe"" < 6.0","values whose Glove embedding distance to ""europe"" > 8.5",0.938940951102818
+Pattern,"97 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9385212963728774
+Pattern,"99 % of values match pattern ""^[a-zA-Z]+_[a-zA-Z]+_[\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+_[a-zA-Z]+_[\+\-\d\.,]+$""",0.9382807541193636
+Embedding,"80 % column values have their Glove embedding distance to ""ford"" < 5.5","values whose Glove embedding distance to ""ford"" > 7.0",0.9376716970405027
+Pattern,"97 % of values match pattern ""^[a-zA-Z]+_[\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+_[\+\-\d\.,]+$""",0.9371623541425778
+Embedding,"80 % column values have their Glove embedding distance to ""shirt"" < 6.5","values whose Glove embedding distance to ""shirt"" > 9.0",0.9364861606526179
+Embedding,"80 % column values have their Glove embedding distance to ""shirt"" < 6.5","values whose Glove embedding distance to ""shirt"" > 12.0",0.9364861606526179
+Embedding,"80 % column values have their Glove embedding distance to ""shirt"" < 6.5","values whose Glove embedding distance to ""shirt"" > 8.5",0.9364861606526179
+Embedding,"80 % column values have their Glove embedding distance to ""australia"" < 6.5","values whose Glove embedding distance to ""australia"" > 9.5",0.9360032691678845
+Pattern,"90 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9359247431799909
+Embedding,"80 % column values have their Glove embedding distance to ""may"" < 5.0","values whose Glove embedding distance to ""may"" > 7.0",0.9357133926920294
+Embedding,"80 % column values have their Glove embedding distance to ""west"" < 5.0","values whose Glove embedding distance to ""west"" > 7.0",0.9356063934059288
+Pattern,"93 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""",0.9355686066172297
+Embedding,"80 % column values have their Glove embedding distance to ""sports"" < 6.5","values whose Glove embedding distance to ""sports"" > 11.5",0.9353544217812936
+Embedding,"80 % column values have their Glove embedding distance to ""sports"" < 6.5","values whose Glove embedding distance to ""sports"" > 10.0",0.9353544217812936
+Embedding,"80 % column values have their Glove embedding distance to ""taylor"" < 5.0","values whose Glove embedding distance to ""taylor"" > 11.5",0.9352718438896228
+Embedding,"80 % column values have their Glove embedding distance to ""taylor"" < 5.0","values whose Glove embedding distance to ""taylor"" > 8.5",0.9352718438896228
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""canada"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""canada"" > 1.3250000000000002",0.9348177691514021
+Pattern,"99 % of values match pattern ""^[a-zA-Z]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9347121969378501
+Embedding,"80 % column values have their Glove embedding distance to ""davis"" < 5.0","values whose Glove embedding distance to ""davis"" > 10.0",0.934010546539878
+Pattern,"90 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9337775147519953
+Embedding,"80 % column values have their Glove embedding distance to ""asia"" < 6.5","values whose Glove embedding distance to ""asia"" > 9.5",0.9335794858002917
+Embedding,"80 % column values have their Glove embedding distance to ""black"" < 5.5","values whose Glove embedding distance to ""black"" > 7.0",0.9332360203195574
+Embedding,"80 % column values have their Glove embedding distance to ""new"" < 5.5","values whose Glove embedding distance to ""new"" > 7.5",0.933038574554312
+Embedding,"80 % column values have their Glove embedding distance to ""management"" < 6.0","values whose Glove embedding distance to ""management"" > 9.5",0.9323182607217338
+Embedding,"80 % column values have their Glove embedding distance to ""spain"" < 5.5","values whose Glove embedding distance to ""spain"" > 7.0",0.9318231816669804
+Embedding,"80 % column values have their Glove embedding distance to ""poor"" < 6.0","values whose Glove embedding distance to ""poor"" > 10.0",0.9316467131233797
+Embedding,"80 % column values have their Glove embedding distance to ""poor"" < 6.0","values whose Glove embedding distance to ""poor"" > 12.0",0.9316467131233797
+CTA,"80 % column values have their Sherlock ""county""-classifier scores >= 0.1","values whose Sherlock ""county""-classifier scores <= 0",0.931220325511755
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""ot"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""ot"" > 1.2750000000000001",0.9311458860161588
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""chicago"" < 1.1","values whose Sentence-BERT embedding distance to ""chicago"" > 1.3",0.9310756371341052
+Pattern,"85 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+ [\+\-\d\.,]+:[\+\-\d\.,]+$""",0.9309435221150449
+Embedding,"80 % column values have their Glove embedding distance to ""ger"" < 7.0","values whose Glove embedding distance to ""ger"" > 8.5",0.9304047767270809
+CTA,"80 % column values have their Doduo ""city""-classifier scores >= 4.5","values whose Doduo ""city""-classifier scores <= -2""",0.9301912152975785
+Pattern,"90 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""",0.930061282753998
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""france"" < 1.1","values whose Sentence-BERT embedding distance to ""france"" > 1.3",0.9300419282585439
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""canada"" < 1.1","values whose Sentence-BERT embedding distance to ""canada"" > 1.3",0.9299315179197474
+Embedding,"80 % column values have their Glove embedding distance to ""jim"" < 5.0","values whose Glove embedding distance to ""jim"" > 7.5",0.9298221010020442
+Embedding,"80 % column values have their Glove embedding distance to ""march"" < 4.5","values whose Glove embedding distance to ""march"" > 6.5",0.9296344641257028
+Pattern,"97 % of values match pattern ""^[a-zA-Z]+ [\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+ [\+\-\d\.,]+$""",0.9294371409075296
+Pattern,"90 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+ [a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+ [a-zA-Z]+$""",0.9293539993812562
+Pattern,"95 % of values match pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+ [a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+:[\+\-\d\.,]+ [a-zA-Z]+$""",0.9293539993812562
+Function,"98 % of values return True on function ""validate_email"" in Dataprep","values that return False on function ""validate_email"" in Dataprep",0.9292620285896946
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""peter"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""peter"" > 1.3",0.9285553885762661
+Embedding,"80 % column values have their Glove embedding distance to ""jim"" < 5.5","values whose Glove embedding distance to ""jim"" > 9.0",0.928029237219139
+Embedding,"80 % column values have their Glove embedding distance to ""west"" < 5.0","values whose Glove embedding distance to ""west"" > 6.5",0.9279122574121115
+Embedding,"80 % column values have their Glove embedding distance to ""james"" < 5.5","values whose Glove embedding distance to ""james"" > 9.0",0.9277464015490152
+Embedding,"80 % column values have their Glove embedding distance to ""chevrolet"" < 7.0","values whose Glove embedding distance to ""chevrolet"" > 11.0",0.9273254100561409
+Embedding,"80 % column values have their Glove embedding distance to ""mexico"" < 5.5","values whose Glove embedding distance to ""mexico"" > 7.0",0.9272319899208589
+Embedding,"80 % column values have their Glove embedding distance to ""review"" < 6.0","values whose Glove embedding distance to ""review"" > 10.0",0.927175351693865
+Embedding,"80 % column values have their Glove embedding distance to ""rent"" < 6.0","values whose Glove embedding distance to ""rent"" > 7.5",0.9269808295575213
+Embedding,"80 % column values have their Glove embedding distance to ""pennsylvania"" < 4.5","values whose Glove embedding distance to ""pennsylvania"" > 6.5",0.9268205486728961
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""lebanon"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""lebanon"" > 1.35",0.926379257128489
+Embedding,"80 % column values have their Glove embedding distance to ""journalist"" < 6.5","values whose Glove embedding distance to ""journalist"" > 12.0",0.9263156075270399
+Embedding,"80 % column values have their Glove embedding distance to ""journalist"" < 6.5","values whose Glove embedding distance to ""journalist"" > 10.5",0.9263156075270399
+Embedding,"80 % column values have their Glove embedding distance to ""two"" < 5.5","values whose Glove embedding distance to ""two"" > 7.5",0.925924368813961
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""canada"" < 1.0","values whose Sentence-BERT embedding distance to ""canada"" > 1.2000000000000002",0.925579203320666
+Embedding,"80 % column values have their Glove embedding distance to ""two"" < 4.5","values whose Glove embedding distance to ""two"" > 6.5",0.9243471574929044
+Embedding,"80 % column values have their Glove embedding distance to ""two"" < 4.5","values whose Glove embedding distance to ""two"" > 6.0",0.9243471574929044
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""minnesota"" < 1.1","values whose Sentence-BERT embedding distance to ""minnesota"" > 1.3",0.9240463407535061
+Embedding,"80 % column values have their Glove embedding distance to ""india"" < 6.5","values whose Glove embedding distance to ""india"" > 10.0",0.9238544738857264
+Embedding,"80 % column values have their Glove embedding distance to ""india"" < 6.5","values whose Glove embedding distance to ""india"" > 11.0",0.9238544738857264
+Embedding,"80 % column values have their Glove embedding distance to ""product"" < 5.5","values whose Glove embedding distance to ""product"" > 12.0",0.9235960031980432
+Embedding,"80 % column values have their Glove embedding distance to ""product"" < 5.5","values whose Glove embedding distance to ""product"" > 8.0",0.9235960031980432
+Pattern,"97 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9233668616945964
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""france"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""france"" > 1.3250000000000002",0.9230617166658155
+Embedding,"80 % column values have their Glove embedding distance to ""new"" < 5.0","values whose Glove embedding distance to ""new"" > 7.0",0.9229511491429663
+Pattern,"85 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""",0.9223985869612039
+Embedding,"80 % column values have their Glove embedding distance to ""africa"" < 5.5","values whose Glove embedding distance to ""africa"" > 7.0",0.9217988429715052
+Pattern,"85 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""",0.921797771353709
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+%$""","values not matching pattern ""^[\+\-\d\.,]+%$""",0.920591584198684
+Embedding,"80 % column values have their Glove embedding distance to ""dry"" < 6.5","values whose Glove embedding distance to ""dry"" > 9.0",0.9205416424158382
+Embedding,"80 % column values have their Glove embedding distance to ""mexico"" < 6.0","values whose Glove embedding distance to ""mexico"" > 7.5",0.9201150485409731
+Pattern,"98 % of values match pattern ""^[a-zA-Z]+[\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+[\+\-\d\.,]+$""",0.9194119377304396
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""hong kong"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""hong kong"" > 1.35",0.9192782765218399
+Pattern,"98 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+$""",0.9191470922865039
+Pattern,"80 % of values match pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+/[\+\-\d\.,]+/[\+\-\d\.,]+$""",0.918404669163625
+Embedding,"80 % column values have their Glove embedding distance to ""march"" < 4.5","values whose Glove embedding distance to ""march"" > 6.0",0.9180759744981802
+Pattern,"98 % of values match pattern ""^[\+\-\d\.,]+ [a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+ [a-zA-Z]+$""",0.9176651107791037
+Embedding,"80 % column values have their Glove embedding distance to ""divorced"" < 6.5","values whose Glove embedding distance to ""divorced"" > 9.0",0.9166269409632455
+Embedding,"80 % column values have their Glove embedding distance to ""fi"" < 6.0","values whose Glove embedding distance to ""fi"" > 10.5",0.9160711383359594
+Pattern,"99 % of values match pattern ""^[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+[\+\-\d\.,]+[a-zA-Z]+[\+\-\d\.,]+$""",0.9153252348301282
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""chicago"" < 1.1","values whose Sentence-BERT embedding distance to ""chicago"" > 1.2750000000000001",0.9144085082156956
+Pattern,"95 % of values match pattern ""^[\+\-\d\.,]+_[\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+_[\+\-\d\.,]+$""",0.9140073583089245
+Embedding,"80 % column values have their Glove embedding distance to ""spain"" < 6.0","values whose Glove embedding distance to ""spain"" > 11.0",0.9134244682233897
+Embedding,"80 % column values have their Glove embedding distance to ""spain"" < 6.0","values whose Glove embedding distance to ""spain"" > 12.0",0.9134244682233897
+Embedding,"80 % column values have their Glove embedding distance to ""car"" < 6.0","values whose Glove embedding distance to ""car"" > 8.0",0.9131687954555798
+Pattern,"95 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9128791497083566
+Embedding,"80 % column values have their Glove embedding distance to ""bremen"" < 6.5","values whose Glove embedding distance to ""bremen"" > 11.0",0.9112536460981647
+Embedding,"80 % column values have their Glove embedding distance to ""nunavut"" < 6.0","values whose Glove embedding distance to ""nunavut"" > 11.0",0.9105222953589798
+Embedding,"80 % column values have their Glove embedding distance to ""nunavut"" < 6.0","values whose Glove embedding distance to ""nunavut"" > 9.5",0.9105222953589798
+Pattern,"99 % of values match pattern ""^[\+\-\d\.,]+[a-zA-Z]+$""","values not matching pattern ""^[\+\-\d\.,]+[a-zA-Z]+$""",0.9095502227700433
+Pattern,"80 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9084648766130528
+Embedding,"80 % column values have their Glove embedding distance to ""mumbai"" < 6.5","values whose Glove embedding distance to ""mumbai"" > 10.0",0.908352200071887
+Embedding,"80 % column values have their Glove embedding distance to ""mumbai"" < 6.5","values whose Glove embedding distance to ""mumbai"" > 9.0",0.908352200071887
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""minnesota"" < 1.1","values whose Sentence-BERT embedding distance to ""minnesota"" > 1.2750000000000001",0.9083385339595011
+Embedding,"80 % column values have their Glove embedding distance to ""march"" < 4.5","values whose Glove embedding distance to ""march"" > 5.5",0.9069039252569903
+Embedding,"80 % column values have their Glove embedding distance to ""all"" < 5.5","values whose Glove embedding distance to ""all"" > 7.5",0.9061363663945685
+Pattern,"95 % of values match pattern ""^[a-zA-Z]+ [\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+ [\+\-\d\.,]+$""",0.9059946034778437
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""antarctica"" < 1.2000000000000002","values whose Sentence-BERT embedding distance to ""antarctica"" > 1.3250000000000002",0.9051573850215116
+Embedding,"80 % column values have their Sentence-BERT embedding distance to ""france"" < 1.0","values whose Sentence-BERT embedding distance to ""france"" > 1.225",0.9046853199455549
+CTA,"80 % column values have their Sherlock ""position""-classifier scores >= 0.1","values whose Sherlock ""position""-classifier scores <= 0",0.9034734282412417
+Embedding,"80 % column values have their Glove embedding distance to ""denmark"" < 5.5","values whose Glove embedding distance to ""denmark"" > 6.5",0.9030971630309188
+Pattern,"80 % of values match pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""","values not matching pattern ""^[\+\-\d\.,]+ [\+\-\d\.,]+$""",0.9024268508273865
+Pattern,"98 % of values match pattern ""^[a-zA-Z]+[\+\-\d\.,]+_[\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+[\+\-\d\.,]+_[\+\-\d\.,]+$""",0.9023896734174552
+Pattern,"99 % of values match pattern ""^[a-zA-Z]+[\+\-\d\.,]+_[\+\-\d\.,]+$""","values not matching pattern ""^[a-zA-Z]+[\+\-\d\.,]+_[\+\-\d\.,]+$""",0.9023896734174552
+Embedding,"80 % column values have their Glove embedding distance to ""uk"" < 6.0","values whose Glove embedding distance to ""uk"" > 7.0",0.9022672602356414
+Function,"99 % of values return True on function ""validate_url"" in Dataprep","values that return False on function ""validate_url"" in Dataprep",0.9016204752368534
+Pattern,"99 % of values match pattern ""^\([\+\-\d\.,]+\) [\+\-\d\.,]+$""","values not matching pattern ""^\([\+\-\d\.,]+\) [\+\-\d\.,]+$""",0.9001814156789331
+Embedding,"80 % column values have their Glove embedding distance to ""green"" < 3.5","values whose Glove embedding distance to ""green"" > 5.5",0.9001814156789331
+Embedding,"80 % column values have their Glove embedding distance to ""saskatchewan"" < 6.0","values whose Glove embedding distance to ""saskatchewan"" > 9.5",0.9001204432866694

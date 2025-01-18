@@ -1,0 +1,2936 @@
+[
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"category\"-classifier scores >= 0.15000000000000002",
+        "post-condition": "values whose Sherlock \"category\"-classifier scores <= 0.002",
+        "confidence": 0.9611337736337736
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"status\"-classifier scores >= 0.1",
+        "post-condition": "values whose Sherlock \"status\"-classifier scores <= 0",
+        "confidence": 0.9778679421784356
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"currency\"-classifier scores >= 0.55",
+        "post-condition": "values whose Sherlock \"currency\"-classifier scores <= 0.002",
+        "confidence": 0.9141307699261108
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"region\"-classifier scores >= 0.15000000000000002",
+        "post-condition": "values whose Sherlock \"region\"-classifier scores <= 0",
+        "confidence": 0.9762561145559291
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"day\"-classifier scores >= 0.25",
+        "post-condition": "values whose Sherlock \"day\"-classifier scores <= 0",
+        "confidence": 0.9919252867197224
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"day\"-classifier scores >= 0.30000000000000004",
+        "post-condition": "values whose Sherlock \"day\"-classifier scores <= 0",
+        "confidence": 0.9919252867197224
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"name\"-classifier scores >= 0.15000000000000002",
+        "post-condition": "values whose Sherlock \"name\"-classifier scores <= 0",
+        "confidence": 0.9153252348301282
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"name\"-classifier scores >= 0.25",
+        "post-condition": "values whose Sherlock \"name\"-classifier scores <= 0",
+        "confidence": 0.9512744540953
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"city\"-classifier scores >= 0.2",
+        "post-condition": "values whose Sherlock \"city\"-classifier scores <= 0",
+        "confidence": 0.9030501672966321
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"state\"-classifier scores >= 0.6",
+        "post-condition": "values whose Sherlock \"state\"-classifier scores <= 0.002",
+        "confidence": 0.9653158686003849
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"team\"-classifier scores >= 0.1",
+        "post-condition": "values whose Sherlock \"team\"-classifier scores <= 0",
+        "confidence": 0.9472609058559944
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"day\"-classifier scores >= 0.15000000000000002",
+        "post-condition": "values whose Sherlock \"day\"-classifier scores <= 0.005",
+        "confidence": 0.9864292256011683
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"day\"-classifier scores >= 0.2",
+        "post-condition": "values whose Sherlock \"day\"-classifier scores <= 0.007",
+        "confidence": 0.9864292256011683
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"day\"-classifier scores >= 0.30000000000000004",
+        "post-condition": "values whose Sherlock \"day\"-classifier scores <= 0.002",
+        "confidence": 0.9864198703294098
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"state\"-classifier scores >= 0.7000000000000001",
+        "post-condition": "values whose Sherlock \"state\"-classifier scores <= 0.002",
+        "confidence": 0.9775136734846782
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"state\"-classifier scores >= 0.7000000000000001",
+        "post-condition": "values whose Sherlock \"state\"-classifier scores <= 0.005",
+        "confidence": 0.9775136734846782
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"day\"-classifier scores >= 0.4",
+        "post-condition": "values whose Sherlock \"day\"-classifier scores <= 0.05",
+        "confidence": 0.9864011210373264
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"day\"-classifier scores >= 0.55",
+        "post-condition": "values whose Sherlock \"day\"-classifier scores <= 0.1",
+        "confidence": 0.9864011210373264
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"state\"-classifier scores >= 0.7000000000000001",
+        "post-condition": "values whose Sherlock \"state\"-classifier scores <= 0",
+        "confidence": 0.9775136734846782
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"name\"-classifier scores >= 0.15000000000000002",
+        "post-condition": "values whose Sherlock \"name\"-classifier scores <= 0.002",
+        "confidence": 0.9044967504653788
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"description\"-classifier scores >= 0.1",
+        "post-condition": "values whose Sherlock \"description\"-classifier scores <= 0.002",
+        "confidence": 0.9037088518303074
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"type\"-classifier scores >= 0.1",
+        "post-condition": "values whose Sherlock \"type\"-classifier scores <= 0",
+        "confidence": 0.9111425632265358
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"state\"-classifier scores >= 0.5",
+        "post-condition": "values whose Sherlock \"state\"-classifier scores <= 0",
+        "confidence": 0.9705552877951338
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"currency\"-classifier scores >= 0.45000000000000007",
+        "post-condition": "values whose Sherlock \"currency\"-classifier scores <= 0",
+        "confidence": 0.9425268096514745
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"currency\"-classifier scores >= 0.15000000000000002",
+        "post-condition": "values whose Sherlock \"currency\"-classifier scores <= 0",
+        "confidence": 0.9030110655723083
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"currency\"-classifier scores >= 0.25",
+        "post-condition": "values whose Sherlock \"currency\"-classifier scores <= 0",
+        "confidence": 0.9064274608599453
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"state\"-classifier scores >= 0.6",
+        "post-condition": "values whose Sherlock \"state\"-classifier scores <= 0.005",
+        "confidence": 0.9595815915670423
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"region\"-classifier scores >= 0.1",
+        "post-condition": "values whose Sherlock \"region\"-classifier scores <= 0",
+        "confidence": 0.9711556652890285
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"region\"-classifier scores >= 0.30000000000000004",
+        "post-condition": "values whose Sherlock \"region\"-classifier scores <= 0.002",
+        "confidence": 0.9725289184334276
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"day\"-classifier scores >= 0.45000000000000007",
+        "post-condition": "values whose Sherlock \"day\"-classifier scores <= 0",
+        "confidence": 0.9919141315338121
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"day\"-classifier scores >= 0.6",
+        "post-condition": "values whose Sherlock \"day\"-classifier scores <= 0",
+        "confidence": 0.9919141315338121
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"name\"-classifier scores >= 0.2",
+        "post-condition": "values whose Sherlock \"name\"-classifier scores <= 0",
+        "confidence": 0.9241181801775893
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"category\"-classifier scores >= 0.15000000000000002",
+        "post-condition": "values whose Sherlock \"category\"-classifier scores <= 0",
+        "confidence": 0.9611337736337736
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"currency\"-classifier scores >= 0.35",
+        "post-condition": "values whose Sherlock \"currency\"-classifier scores <= 0",
+        "confidence": 0.9366731979162646
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "90 % column values have their Sherlock \"day\"-classifier scores >= 0.1",
+        "post-condition": "values whose Sherlock \"day\"-classifier scores <= 0.15",
+        "confidence": 0.9964325300954198
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"region\"-classifier scores >= 0.2",
+        "post-condition": "values whose Sherlock \"region\"-classifier scores <= 0.002",
+        "confidence": 0.9643371853041165
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Sherlock \"year\"-classifier scores >= 0.1",
+        "post-condition": "values whose Sherlock \"year\"-classifier scores <= 0.007",
+        "confidence": 0.987589886085521
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"country\"-classifier scores >= 4.5",
+        "post-condition": "values whose Doduo \"country\"-classifier scores <= -1.5\"",
+        "confidence": 0.9923484262758648
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"day\"-classifier scores >= 4.5",
+        "post-condition": "values whose Doduo \"day\"-classifier scores <= -1\"",
+        "confidence": 0.9975525793274593
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"state\"-classifier scores >= 4",
+        "post-condition": "values whose Doduo \"state\"-classifier scores <= -2\"",
+        "confidence": 0.9888621885161553
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"state\"-classifier scores >= 4.5",
+        "post-condition": "values whose Doduo \"state\"-classifier scores <= -1\"",
+        "confidence": 0.9788750035930599
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"team\"-classifier scores >= 4",
+        "post-condition": "values whose Doduo \"team\"-classifier scores <= -1\"",
+        "confidence": 0.9680404868827461
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"city\"-classifier scores >= 4",
+        "post-condition": "values whose Doduo \"city\"-classifier scores <= -2\"",
+        "confidence": 0.9369721859273568
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"country\"-classifier scores >= 4.5",
+        "post-condition": "values whose Doduo \"country\"-classifier scores <= -1\"",
+        "confidence": 0.9820746500253215
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"state\"-classifier scores >= 4.5",
+        "post-condition": "values whose Doduo \"state\"-classifier scores <= -2\"",
+        "confidence": 0.9898645608587753
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"team\"-classifier scores >= 4",
+        "post-condition": "values whose Doduo \"team\"-classifier scores <= -2\"",
+        "confidence": 0.9913862318067561
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"team\"-classifier scores >= 4",
+        "post-condition": "values whose Doduo \"team\"-classifier scores <= -1.5\"",
+        "confidence": 0.9829130579245953
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"country\"-classifier scores >= 4.5",
+        "post-condition": "values whose Doduo \"country\"-classifier scores <= -2\"",
+        "confidence": 0.9940553158643691
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"description\"-classifier scores >= 4",
+        "post-condition": "values whose Doduo \"description\"-classifier scores <= -1.5\"",
+        "confidence": 0.9665487070887204
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"state\"-classifier scores >= 4.5",
+        "post-condition": "values whose Doduo \"state\"-classifier scores <= -2.5\"",
+        "confidence": 0.9934881573437703
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"type\"-classifier scores >= 4",
+        "post-condition": "values whose Doduo \"type\"-classifier scores <= -1.5\"",
+        "confidence": 0.9933054696627083
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"region\"-classifier scores >= 4",
+        "post-condition": "values whose Doduo \"region\"-classifier scores <= -2\"",
+        "confidence": 0.9825671999648078
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"state\"-classifier scores >= 4",
+        "post-condition": "values whose Doduo \"state\"-classifier scores <= -2.5\"",
+        "confidence": 0.992099771701926
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"category\"-classifier scores >= 4.5",
+        "post-condition": "values whose Doduo \"category\"-classifier scores <= -2\"",
+        "confidence": 0.9936994092795214
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"category\"-classifier scores >= 4",
+        "post-condition": "values whose Doduo \"category\"-classifier scores <= -1.5\"",
+        "confidence": 0.9909187930258727
+    },
+    {
+        "type": "CTA",
+        "pre-condition": "80 % column values have their Doduo \"team\"-classifier scores >= 4.5",
+        "post-condition": "values whose Doduo \"team\"-classifier scores <= -2.5\"",
+        "confidence": 0.9944034754504335
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"august\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"august\" > 11.5",
+        "confidence": 0.9934588547904704
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"central\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"central\" > 10.0",
+        "confidence": 0.9939633540575384
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"yes\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"yes\" > 7.0",
+        "confidence": 0.9886603915471338
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"yes\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"yes\" > 7.5",
+        "confidence": 0.9886603915471338
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"victoria\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"victoria\" > 12.0",
+        "confidence": 0.9689699814942194
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"france\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"france\" > 10.5",
+        "confidence": 0.9905168774924357
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"thursday\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"thursday\" > 9.5",
+        "confidence": 0.9935804213635625
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"brooklyn\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"brooklyn\" > 10.5",
+        "confidence": 0.9722118813864343
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"netherlands\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"netherlands\" > 11.0",
+        "confidence": 0.986616209496817
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"thu\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"thu\" > 10.0",
+        "confidence": 0.9966028840820854
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"red\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"red\" > 8.0",
+        "confidence": 0.9910357794315727
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"delhi\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"delhi\" > 10.5",
+        "confidence": 0.9723542768989127
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"clothing\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"clothing\" > 12.0",
+        "confidence": 0.9814296841358376
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"illinois\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"illinois\" > 8.5",
+        "confidence": 0.9743235705552126
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"california\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"california\" > 9.0",
+        "confidence": 0.986051921857658
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"california\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"california\" > 10.0",
+        "confidence": 0.986051921857658
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"california\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"california\" > 12.0",
+        "confidence": 0.986051921857658
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"quebec\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"quebec\" > 8.5",
+        "confidence": 0.9657217618840074
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"physics\" < 7.0",
+        "post-condition": "values whose Glove embedding distance to \"physics\" > 9.0",
+        "confidence": 0.981118066653341
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"physics\" < 7.0",
+        "post-condition": "values whose Glove embedding distance to \"physics\" > 11.0",
+        "confidence": 0.981118066653341
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"riverside\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"riverside\" > 11.0",
+        "confidence": 0.9165804795060122
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"indian\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"indian\" > 8.0",
+        "confidence": 0.9717206885369788
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"europe\" < 4.5",
+        "post-condition": "values whose Glove embedding distance to \"europe\" > 7.5",
+        "confidence": 0.9927495311806397
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"red\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"red\" > 7.0",
+        "confidence": 0.9857397535064198
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"spain\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"spain\" > 7.0",
+        "confidence": 0.989305759473105
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"delhi\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"delhi\" > 10.5",
+        "confidence": 0.9816070746408545
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"delhi\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"delhi\" > 12.0",
+        "confidence": 0.9816070746408545
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"touring\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"touring\" > 11.5",
+        "confidence": 0.9872150148285522
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"agosto\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"agosto\" > 9.0",
+        "confidence": 0.9683670660613859
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"agosto\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"agosto\" > 9.5",
+        "confidence": 0.9683670660613859
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"texas\" < 4.0",
+        "post-condition": "values whose Glove embedding distance to \"texas\" > 7.0",
+        "confidence": 0.9769888219015075
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"texas\" < 4.0",
+        "post-condition": "values whose Glove embedding distance to \"texas\" > 7.5",
+        "confidence": 0.9769888219015075
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"austria\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"austria\" > 10.5",
+        "confidence": 0.9868888459534816
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"paris\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"paris\" > 11.5",
+        "confidence": 0.9848888409216796
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"lagos\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"lagos\" > 9.0",
+        "confidence": 0.9744511915277548
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"august\" < 3.0",
+        "post-condition": "values whose Glove embedding distance to \"august\" > 6.0",
+        "confidence": 0.9917548181919607
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"scheduled\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"scheduled\" > 12.0",
+        "confidence": 0.9916012198013433
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"transportation\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"transportation\" > 11.0",
+        "confidence": 0.9756344519408241
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"third\" < 4.5",
+        "post-condition": "values whose Glove embedding distance to \"third\" > 10.0",
+        "confidence": 0.9957211272968363
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"third\" < 4.5",
+        "post-condition": "values whose Glove embedding distance to \"third\" > 12.0",
+        "confidence": 0.9957211272968363
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"july\" < 3.0",
+        "post-condition": "values whose Glove embedding distance to \"july\" > 6.0",
+        "confidence": 0.9917548181919607
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"green\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"green\" > 11.0",
+        "confidence": 0.9876311474079943
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"steel\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"steel\" > 10.5",
+        "confidence": 0.9877203590456005
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"spring\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"spring\" > 11.0",
+        "confidence": 0.9916252544696413
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"team\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"team\" > 10.5",
+        "confidence": 0.9911128175327135
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"unknown\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"unknown\" > 11.5",
+        "confidence": 0.9442418843185272
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"april\" < 3.5",
+        "post-condition": "values whose Glove embedding distance to \"april\" > 5.5",
+        "confidence": 0.990618014243841
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"active\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"active\" > 10.0",
+        "confidence": 0.9760930578180675
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"manager\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"manager\" > 11.0",
+        "confidence": 0.9705727237938105
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"average\" < 7.0",
+        "post-condition": "values whose Glove embedding distance to \"average\" > 12.0",
+        "confidence": 0.9877803898029884
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"california\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"california\" > 7.0",
+        "confidence": 0.9578605907275435
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"no\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"no\" > 7.0",
+        "confidence": 0.9793261639397979
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"no\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"no\" > 11.0",
+        "confidence": 0.9909852720582812
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"components\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"components\" > 12.0",
+        "confidence": 0.9784889398936709
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"average\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"average\" > 9.0",
+        "confidence": 0.9927885534533791
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"average\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"average\" > 9.5",
+        "confidence": 0.9927885534533791
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"individual\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"individual\" > 6.5",
+        "confidence": 0.9837648470027799
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"maryland\" < 4.0",
+        "post-condition": "values whose Glove embedding distance to \"maryland\" > 7.0",
+        "confidence": 0.9769320153634324
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"plymouth\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"plymouth\" > 9.5",
+        "confidence": 0.9489693047328972
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"agosto\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"agosto\" > 7.5",
+        "confidence": 0.9658980223783237
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"other\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"other\" > 10.0",
+        "confidence": 0.9902456136265191
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"other\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"other\" > 10.5",
+        "confidence": 0.9902456136265191
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"sudeste\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"sudeste\" > 9.5",
+        "confidence": 0.9208310078507776
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"northeast\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"northeast\" > 7.5",
+        "confidence": 0.9870239564267504
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"others\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"others\" > 11.5",
+        "confidence": 0.9742859415625171
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"poor\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"poor\" > 9.0",
+        "confidence": 0.9904900015939033
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"sunday\" < 3.5",
+        "post-condition": "values whose Glove embedding distance to \"sunday\" > 5.5",
+        "confidence": 0.9856366657127763
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"david\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"david\" > 11.0",
+        "confidence": 0.9755673558820916
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"david\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"david\" > 11.5",
+        "confidence": 0.9755673558820916
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"protection\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"protection\" > 11.0",
+        "confidence": 0.9803516230682815
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"protection\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"protection\" > 11.5",
+        "confidence": 0.9803516230682815
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"paris\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"paris\" > 10.5",
+        "confidence": 0.9928642795640893
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"canada\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"canada\" > 7.0",
+        "confidence": 0.9905004284521136
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"disagree\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"disagree\" > 6.5",
+        "confidence": 0.9818656958784299
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"disagree\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"disagree\" > 7.0",
+        "confidence": 0.9818656958784299
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"riverside\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"riverside\" > 10.0",
+        "confidence": 0.9608084471475645
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"medium\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"medium\" > 8.5",
+        "confidence": 0.9923913834723035
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"medium\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"medium\" > 11.0",
+        "confidence": 0.9923913834723035
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"text\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"text\" > 7.0",
+        "confidence": 0.975300059011568
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"mouse\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"mouse\" > 10.0",
+        "confidence": 0.969384238193393
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"men\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"men\" > 8.5",
+        "confidence": 0.9934827391291942
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"men\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"men\" > 10.0",
+        "confidence": 0.9934827391291942
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"manual\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"manual\" > 11.5",
+        "confidence": 0.974186167245379
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"china\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"china\" > 10.5",
+        "confidence": 0.9929267667502214
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"aa\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"aa\" > 10.5",
+        "confidence": 0.9766365318488618
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"government\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"government\" > 11.5",
+        "confidence": 0.9917328042858883
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"canada\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"canada\" > 6.5",
+        "confidence": 0.9869518552738372
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"illinois\" < 4.0",
+        "post-condition": "values whose Glove embedding distance to \"illinois\" > 7.0",
+        "confidence": 0.9758899261575623
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"andover\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"andover\" > 9.5",
+        "confidence": 0.9149885499661643
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"andover\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"andover\" > 11.5",
+        "confidence": 0.9149885499661643
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"jordan\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"jordan\" > 8.0",
+        "confidence": 0.9898805824224075
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"red\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"red\" > 7.5",
+        "confidence": 0.9896786469970857
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"silver\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"silver\" > 11.5",
+        "confidence": 0.9810179821190186
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"revenue\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"revenue\" > 10.0",
+        "confidence": 0.9757616608962154
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"aug\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"aug\" > 9.5",
+        "confidence": 0.9907148706003006
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"oct\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"oct\" > 10.0",
+        "confidence": 0.9906753144426637
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"oct\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"oct\" > 11.5",
+        "confidence": 0.9906753144426637
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"boe\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"boe\" > 10.0",
+        "confidence": 0.9528997913034725
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"boe\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"boe\" > 11.0",
+        "confidence": 0.9528997913034725
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"female\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"female\" > 7.0",
+        "confidence": 0.9681058202681384
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"website\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"website\" > 9.0",
+        "confidence": 0.9858425249116133
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"website\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"website\" > 10.0",
+        "confidence": 0.9858425249116133
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"website\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"website\" > 10.5",
+        "confidence": 0.9858425249116133
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"sedan\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"sedan\" > 9.0",
+        "confidence": 0.9118319416395546
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"thursday\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"thursday\" > 6.5",
+        "confidence": 0.9896410310542064
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"active\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"active\" > 11.5",
+        "confidence": 0.9899532930767844
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"general\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"general\" > 8.5",
+        "confidence": 0.9898552214149214
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"education\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"education\" > 11.5",
+        "confidence": 0.9819325257322373
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"europe\" < 4.5",
+        "post-condition": "values whose Glove embedding distance to \"europe\" > 12.0",
+        "confidence": 0.9927495311806397
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"caps\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"caps\" > 9.0",
+        "confidence": 0.9845304003442956
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"child\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"child\" > 7.5",
+        "confidence": 0.9901862591133461
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"singapore\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"singapore\" > 8.0",
+        "confidence": 0.9980383836560495
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"singapore\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"singapore\" > 9.5",
+        "confidence": 0.9980383836560495
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"africa\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"africa\" > 9.0",
+        "confidence": 0.9870959406445948
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"april\" < 3.0",
+        "post-condition": "values whose Glove embedding distance to \"april\" > 6.5",
+        "confidence": 0.9929279063649775
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"brooklyn\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"brooklyn\" > 11.5",
+        "confidence": 0.9499723689604894
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"pa\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"pa\" > 12.0",
+        "confidence": 0.9870511755546184
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"winter\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"winter\" > 9.5",
+        "confidence": 0.9936720004330922
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"winter\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"winter\" > 10.5",
+        "confidence": 0.9936720004330922
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"winter\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"winter\" > 11.0",
+        "confidence": 0.9936720004330922
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"russia\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"russia\" > 9.5",
+        "confidence": 0.99002363352193
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"russia\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"russia\" > 12.0",
+        "confidence": 0.99002363352193
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"austria\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"austria\" > 11.5",
+        "confidence": 0.9837687238429985
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"berlin\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"berlin\" > 7.5",
+        "confidence": 0.9892760967618712
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"smart\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"smart\" > 8.5",
+        "confidence": 0.9892034771655107
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"oct\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"oct\" > 8.0",
+        "confidence": 0.9728893286561198
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"russia\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"russia\" > 8.0",
+        "confidence": 0.9862162206551767
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"regular\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"regular\" > 9.0",
+        "confidence": 0.9902186125607493
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"low\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"low\" > 7.5",
+        "confidence": 0.9909947048102951
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"child\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"child\" > 8.0",
+        "confidence": 0.9923750464528662
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"se\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"se\" > 8.5",
+        "confidence": 0.9832857892902082
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"se\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"se\" > 9.0",
+        "confidence": 0.9832857892902082
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"mens\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"mens\" > 12.0",
+        "confidence": 0.9591794609521592
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"no\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"no\" > 9.0",
+        "confidence": 0.9961878988416258
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"no\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"no\" > 10.0",
+        "confidence": 0.9961878988416258
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"music\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"music\" > 10.5",
+        "confidence": 0.9865452316415871
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"music\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"music\" > 11.0",
+        "confidence": 0.9865452316415871
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"april\" < 4.0",
+        "post-condition": "values whose Glove embedding distance to \"april\" > 5.5",
+        "confidence": 0.9875996333959902
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"northeast\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"northeast\" > 8.0",
+        "confidence": 0.9880229558299154
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"northeast\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"northeast\" > 11.0",
+        "confidence": 0.9880229558299154
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"northeast\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"northeast\" > 12.0",
+        "confidence": 0.9880229558299154
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"spring\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"spring\" > 11.0",
+        "confidence": 0.9828296424309168
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"april\" < 3.5",
+        "post-condition": "values whose Glove embedding distance to \"april\" > 7.0",
+        "confidence": 0.9929279063649775
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"white\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"white\" > 10.5",
+        "confidence": 0.9889627983965386
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"closed\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"closed\" > 12.0",
+        "confidence": 0.9938844478850272
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"others\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"others\" > 6.5",
+        "confidence": 0.9867271777086993
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"tokyo\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"tokyo\" > 9.0",
+        "confidence": 0.9924901028454267
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"hard\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"hard\" > 8.0",
+        "confidence": 0.993163766300438
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"hard\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"hard\" > 10.0",
+        "confidence": 0.993163766300438
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"hard\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"hard\" > 11.0",
+        "confidence": 0.993163766300438
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"australia\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"australia\" > 11.0",
+        "confidence": 0.9896283166529681
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"australia\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"australia\" > 12.0",
+        "confidence": 0.9896283166529681
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"jack\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"jack\" > 10.5",
+        "confidence": 0.9530311154366611
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"purple\" < 4.5",
+        "post-condition": "values whose Glove embedding distance to \"purple\" > 6.5",
+        "confidence": 0.9622583365416947
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"hp\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"hp\" > 9.5",
+        "confidence": 0.9807644683013332
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"travel\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"travel\" > 8.5",
+        "confidence": 0.975839597908762
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"ms\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"ms\" > 10.5",
+        "confidence": 0.9752569039052317
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"ms\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"ms\" > 11.5",
+        "confidence": 0.9752569039052317
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"ms\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"ms\" > 12.0",
+        "confidence": 0.9752569039052317
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"tv\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"tv\" > 9.5",
+        "confidence": 0.989632906461213
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"europe\" < 4.5",
+        "post-condition": "values whose Glove embedding distance to \"europe\" > 6.0",
+        "confidence": 0.9727874761670637
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"text\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"text\" > 9.0",
+        "confidence": 0.9816405695623838
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"college\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"college\" > 11.5",
+        "confidence": 0.9780936581881273
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"june\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"june\" > 12.0",
+        "confidence": 0.9931311127279113
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"closed\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"closed\" > 9.0",
+        "confidence": 0.9893514519877564
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"venezuela\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"venezuela\" > 8.0",
+        "confidence": 0.9831797811481939
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"bulk\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"bulk\" > 11.0",
+        "confidence": 0.9700113055459222
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"december\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"december\" > 8.0",
+        "confidence": 0.9932179097012819
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"december\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"december\" > 10.0",
+        "confidence": 0.9932179097012819
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"high\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"high\" > 9.0",
+        "confidence": 0.9915063755179975
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"shirt\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"shirt\" > 9.0",
+        "confidence": 0.9697227818807256
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"shirt\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"shirt\" > 11.0",
+        "confidence": 0.9697227818807256
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"shirt\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"shirt\" > 11.5",
+        "confidence": 0.9697227818807256
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"north\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"north\" > 9.5",
+        "confidence": 0.9922604332239829
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"rent\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"rent\" > 9.5",
+        "confidence": 0.9794881712943637
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"medium\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"medium\" > 7.0",
+        "confidence": 0.9850608070918322
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"on\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"on\" > 11.5",
+        "confidence": 0.9928728698560059
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"february\" < 3.5",
+        "post-condition": "values whose Glove embedding distance to \"february\" > 5.0",
+        "confidence": 0.9852540895248613
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"mars\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"mars\" > 9.0",
+        "confidence": 0.9801247462331144
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"mars\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"mars\" > 11.0",
+        "confidence": 0.9801247462331144
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"hp\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"hp\" > 12.0",
+        "confidence": 0.9820380339712422
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"petrol\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"petrol\" > 11.0",
+        "confidence": 0.9893506750072286
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"pending\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"pending\" > 8.5",
+        "confidence": 0.991382168870019
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"rejected\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"rejected\" > 8.5",
+        "confidence": 0.9924472071469552
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"rejected\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"rejected\" > 11.0",
+        "confidence": 0.9924472071469552
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"december\" < 3.0",
+        "post-condition": "values whose Glove embedding distance to \"december\" > 5.0",
+        "confidence": 0.9852540895248613
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"august\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"august\" > 12.0",
+        "confidence": 0.9928277561242751
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"central\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"central\" > 7.5",
+        "confidence": 0.9909570961968988
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"apr\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"apr\" > 7.5",
+        "confidence": 0.9907454052435835
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"green\" < 3.5",
+        "post-condition": "values whose Glove embedding distance to \"green\" > 5.5",
+        "confidence": 0.9603310973796385
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"religious\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"religious\" > 11.0",
+        "confidence": 0.9879314010194857
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"second\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"second\" > 9.5",
+        "confidence": 0.9932744681940113
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"second\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"second\" > 11.5",
+        "confidence": 0.9932744681940113
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"climb\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"climb\" > 7.0",
+        "confidence": 0.9815623982634417
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"normal\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"normal\" > 8.0",
+        "confidence": 0.9895332480103486
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"underweight\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"underweight\" > 11.5",
+        "confidence": 0.9657857265177283
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"wi\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"wi\" > 9.0",
+        "confidence": 0.9793626138342055
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"student\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"student\" > 10.0",
+        "confidence": 0.9898799184366969
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"wholesale\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"wholesale\" > 9.5",
+        "confidence": 0.9690729092876602
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"revenue\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"revenue\" > 10.0",
+        "confidence": 0.9825224493028637
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"americas\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"americas\" > 7.0",
+        "confidence": 0.9894415591839966
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"california\" < 4.5",
+        "post-condition": "values whose Glove embedding distance to \"california\" > 7.0",
+        "confidence": 0.9666292698148202
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"hawaii\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"hawaii\" > 8.5",
+        "confidence": 0.9691390919300947
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"tim\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"tim\" > 9.5",
+        "confidence": 0.9438439469184008
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"spring\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"spring\" > 6.5",
+        "confidence": 0.9888759080127904
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"indiana\" < 4.0",
+        "post-condition": "values whose Glove embedding distance to \"indiana\" > 6.0",
+        "confidence": 0.9686912223139172
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"norway\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"norway\" > 7.5",
+        "confidence": 0.9790856397646603
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"disagree\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"disagree\" > 6.0",
+        "confidence": 0.973273838194147
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"maine\" < 4.5",
+        "post-condition": "values whose Glove embedding distance to \"maine\" > 7.0",
+        "confidence": 0.9751864045631138
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"cc\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"cc\" > 10.5",
+        "confidence": 0.9587170090186188
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"cc\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"cc\" > 11.0",
+        "confidence": 0.9587170090186188
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"cc\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"cc\" > 11.5",
+        "confidence": 0.9587170090186188
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"delivered\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"delivered\" > 9.0",
+        "confidence": 0.9845668487816834
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"gbr\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"gbr\" > 10.5",
+        "confidence": 0.9782766045998227
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"charlotte\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"charlotte\" > 9.5",
+        "confidence": 0.9617331892848161
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"asia\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"asia\" > 7.0",
+        "confidence": 0.9786456050496388
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"furniture\" < 7.0",
+        "post-condition": "values whose Glove embedding distance to \"furniture\" > 11.0",
+        "confidence": 0.9289144979772344
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"health\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"health\" > 10.0",
+        "confidence": 0.9820266401280007
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"monday\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"monday\" > 11.5",
+        "confidence": 0.9931447865992674
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"england\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"england\" > 6.5",
+        "confidence": 0.9472909504611251
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"spring\" < 4.5",
+        "post-condition": "values whose Glove embedding distance to \"spring\" > 7.0",
+        "confidence": 0.9915217574689531
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"iowa\" < 4.0",
+        "post-condition": "values whose Glove embedding distance to \"iowa\" > 6.0",
+        "confidence": 0.9731471559571057
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"russia\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"russia\" > 9.0",
+        "confidence": 0.9860908101951313
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"receive\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"receive\" > 9.5",
+        "confidence": 0.990331294597444
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"accessories\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"accessories\" > 10.0",
+        "confidence": 0.9516262014965416
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"accessories\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"accessories\" > 11.5",
+        "confidence": 0.9516262014965416
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"tokyo\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"tokyo\" > 9.0",
+        "confidence": 0.992844835289554
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"tokyo\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"tokyo\" > 11.5",
+        "confidence": 0.992844835289554
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"spain\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"spain\" > 7.5",
+        "confidence": 0.9931970021309294
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"greece\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"greece\" > 6.5",
+        "confidence": 0.9639094381226985
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"mon\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"mon\" > 12.0",
+        "confidence": 0.9937417079585352
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"yes\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"yes\" > 8.0",
+        "confidence": 0.9794993491737859
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"adult\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"adult\" > 11.5",
+        "confidence": 0.9860548641082177
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"sl\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"sl\" > 9.0",
+        "confidence": 0.9820876693866896
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"hawaii\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"hawaii\" > 7.5",
+        "confidence": 0.9748613272733273
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"hawaii\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"hawaii\" > 11.0",
+        "confidence": 0.9748613272733273
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"task\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"task\" > 10.0",
+        "confidence": 0.9843656841483557
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"organization\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"organization\" > 9.0",
+        "confidence": 0.9919436559226377
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"clothing\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"clothing\" > 7.0",
+        "confidence": 0.9467137836861512
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"new\" < 4.5",
+        "post-condition": "values whose Glove embedding distance to \"new\" > 10.0",
+        "confidence": 0.9979821850725397
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"jun\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"jun\" > 6.5",
+        "confidence": 0.9444378609885643
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"berlin\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"berlin\" > 7.0",
+        "confidence": 0.9937805378894522
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"shirt\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"shirt\" > 7.5",
+        "confidence": 0.9647178963057635
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"second\" < 4.5",
+        "post-condition": "values whose Glove embedding distance to \"second\" > 7.5",
+        "confidence": 0.995260182938517
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"asia\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"asia\" > 7.5",
+        "confidence": 0.9848661891625796
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"safety\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"safety\" > 8.5",
+        "confidence": 0.9882239979082177
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"monday\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"monday\" > 10.0",
+        "confidence": 0.9924201602159097
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"cash\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"cash\" > 9.0",
+        "confidence": 0.9924357225525815
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"cash\" < 5.5",
+        "post-condition": "values whose Glove embedding distance to \"cash\" > 10.5",
+        "confidence": 0.9924357225525815
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"second\" < 4.5",
+        "post-condition": "values whose Glove embedding distance to \"second\" > 5.0",
+        "confidence": 0.9894817399589368
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"am\" < 7.0",
+        "post-condition": "values whose Glove embedding distance to \"am\" > 12.0",
+        "confidence": 0.9829195438844723
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"phd\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"phd\" > 8.0",
+        "confidence": 0.9746357313482922
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"transportation\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"transportation\" > 10.0",
+        "confidence": 0.9798947831163716
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"transportation\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"transportation\" > 12.0",
+        "confidence": 0.9798947831163716
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"jan\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"jan\" > 9.0",
+        "confidence": 0.9798486578177177
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"jan\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"jan\" > 10.5",
+        "confidence": 0.9798486578177177
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"jan\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"jan\" > 11.5",
+        "confidence": 0.9798486578177177
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"afternoon\" < 5.0",
+        "post-condition": "values whose Glove embedding distance to \"afternoon\" > 7.5",
+        "confidence": 0.9915644154853704
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"iota\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"iota\" > 10.0",
+        "confidence": 0.9302457301694248
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"iota\" < 6.5",
+        "post-condition": "values whose Glove embedding distance to \"iota\" > 11.0",
+        "confidence": 0.9302457301694248
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"netherlands\" < 6.0",
+        "post-condition": "values whose Glove embedding distance to \"netherlands\" > 7.0",
+        "confidence": 0.9749781175047015
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"phd\" < 7.0",
+        "post-condition": "values whose Glove embedding distance to \"phd\" > 9.0",
+        "confidence": 0.9693618401566665
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Glove embedding distance to \"phd\" < 7.0",
+        "post-condition": "values whose Glove embedding distance to \"phd\" > 9.5",
+        "confidence": 0.9693618401566665
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"turkey\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"turkey\" > 1.3",
+        "confidence": 0.977042498535246
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"turkey\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"turkey\" > 1.4000000000000001",
+        "confidence": 0.9957869875645068
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"italy\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"italy\" > 1.375",
+        "confidence": 0.9918627307311714
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"kolkata knight riders\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"kolkata knight riders\" > 1.3250000000000002",
+        "confidence": 0.9720887603932209
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"partial high school\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"partial high school\" > 1.2750000000000001",
+        "confidence": 0.936135221211106
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"france\" < 0.9",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"france\" > 1.225",
+        "confidence": 0.9731471559571057
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"france\" < 0.9",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"france\" > 1.25",
+        "confidence": 0.9731471559571057
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"tuesday\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"tuesday\" > 1.375",
+        "confidence": 0.9988351168837217
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"tuesday\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"tuesday\" > 1.4000000000000001",
+        "confidence": 0.9988351168837217
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"sunday\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"sunday\" > 1.225",
+        "confidence": 0.9962096949812287
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"sunday\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"sunday\" > 1.25",
+        "confidence": 0.9968660701088756
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"sunday\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"sunday\" > 1.2750000000000001",
+        "confidence": 0.9983490066534826
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"wednesday\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"wednesday\" > 1.125",
+        "confidence": 0.9905850558775353
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"february\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"february\" > 1.175",
+        "confidence": 0.9944144480852936
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"february\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"february\" > 1.2000000000000002",
+        "confidence": 0.9950053652627304
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"february\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"february\" > 1.2750000000000001",
+        "confidence": 0.995610846122022
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"february\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"february\" > 1.3",
+        "confidence": 0.9968874698344956
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"february\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"february\" > 1.3250000000000002",
+        "confidence": 0.9983602818047964
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"ukraine\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"ukraine\" > 1.375",
+        "confidence": 0.995270812723173
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"august\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"august\" > 1.3250000000000002",
+        "confidence": 0.9960571490303111
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"june\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"june\" > 1.3",
+        "confidence": 0.9976933388054202
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"washington\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"washington\" > 1.35",
+        "confidence": 0.9937805378894522
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"august\" < 0.9",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"august\" > 1.125",
+        "confidence": 0.9953487355188824
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"january\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"january\" > 1.375",
+        "confidence": 0.9988864416267692
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"january\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"january\" > 1.3",
+        "confidence": 0.9955286235071938
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"january\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"january\" > 1.3250000000000002",
+        "confidence": 0.9969675766883563
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"co\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"co\" > 1.3250000000000002",
+        "confidence": 0.9936454042145608
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"june\" < 0.9",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"june\" > 1.2000000000000002",
+        "confidence": 0.9906777860671937
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"france\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"france\" > 1.375",
+        "confidence": 0.9917447153333804
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"wednesday\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"wednesday\" > 1.175",
+        "confidence": 0.9938218729156434
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"wednesday\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"wednesday\" > 1.225",
+        "confidence": 0.995601461689428
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"wednesday\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"wednesday\" > 1.3",
+        "confidence": 0.9975769187760122
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"february\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"february\" > 1.3",
+        "confidence": 0.9952735792646132
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"turkey\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"turkey\" > 1.375",
+        "confidence": 0.9937880559178627
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"bag\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"bag\" > 1.3250000000000002",
+        "confidence": 0.9958568535114471
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"france\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"france\" > 1.3250000000000002",
+        "confidence": 0.940702141777299
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"home office\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"home office\" > 1.3250000000000002",
+        "confidence": 0.9813639781638914
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"home office\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"home office\" > 1.35",
+        "confidence": 0.9918755033398077
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"home office\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"home office\" > 1.375",
+        "confidence": 0.9918755033398077
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"sep\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"sep\" > 1.2750000000000001",
+        "confidence": 0.9902377429111459
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"sep\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"sep\" > 1.3",
+        "confidence": 0.991751950296737
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"february\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"february\" > 1.35",
+        "confidence": 0.9983602818047964
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"tuesday\" < 0.8",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"tuesday\" > 1.125",
+        "confidence": 0.9905417700834999
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"washington\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"washington\" > 1.3",
+        "confidence": 0.9765543161679716
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"skilled manual\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"skilled manual\" > 1.2750000000000001",
+        "confidence": 0.9566304269120802
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"skilled manual\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"skilled manual\" > 1.3250000000000002",
+        "confidence": 0.9771117529861488
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"italy\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"italy\" > 1.375",
+        "confidence": 0.9919640365545647
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"january\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"january\" > 1.35",
+        "confidence": 0.9969675766883563
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"co\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"co\" > 1.35",
+        "confidence": 0.9966052888265786
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"nsw\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"nsw\" > 1.35",
+        "confidence": 0.9862222894148786
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"kolkata knight riders\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"kolkata knight riders\" > 1.35",
+        "confidence": 0.9810610841168675
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"partial high school\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"partial high school\" > 1.35",
+        "confidence": 0.9769681526921357
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"france\" < 0.9",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"france\" > 1.2750000000000001",
+        "confidence": 0.9817796867411365
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"august\" < 0.9",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"august\" > 1.225",
+        "confidence": 0.9953487355188824
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"january\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"january\" > 1.4000000000000001",
+        "confidence": 0.9988864416267692
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"jessie\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"jessie\" > 1.35",
+        "confidence": 0.9826318749289127
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"jessie\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"jessie\" > 1.375",
+        "confidence": 0.9876299140996483
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"france\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"france\" > 1.3250000000000002",
+        "confidence": 0.9752663005629182
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"ukraine\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"ukraine\" > 1.3",
+        "confidence": 0.9814530355001014
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"june\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"june\" > 1.2750000000000001",
+        "confidence": 0.9943918167641081
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"turkey\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"turkey\" > 1.3250000000000002",
+        "confidence": 0.9903311456413376
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"italy\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"italy\" > 1.35",
+        "confidence": 0.9869685994600824
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"january\" < 0.9",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"january\" > 1.2000000000000002",
+        "confidence": 0.9953179824926055
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"france\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"france\" > 1.35",
+        "confidence": 0.9867797064881209
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"june\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"june\" > 1.375",
+        "confidence": 0.9983864608423166
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"washington\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"washington\" > 1.375",
+        "confidence": 0.9898302919206818
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"france\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"france\" > 1.3250000000000002",
+        "confidence": 0.9810613123553511
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"february\" < 0.9",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"february\" > 1.1500000000000001",
+        "confidence": 0.9952432882252935
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"february\" < 0.9",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"february\" > 1.175",
+        "confidence": 0.9952432882252935
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"washington\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"washington\" > 1.375",
+        "confidence": 0.997290529492152
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"skilled manual\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"skilled manual\" > 1.225",
+        "confidence": 0.9067056887374152
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"august\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"august\" > 1.3",
+        "confidence": 0.9959330795180324
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"june\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"june\" > 1.35",
+        "confidence": 0.9979228656638165
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"january\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"january\" > 1.3250000000000002",
+        "confidence": 0.9958435632539335
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"strongly agree\" < 1.3",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"strongly agree\" > 1.4000000000000001",
+        "confidence": 0.9956798160673037
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"northeast\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"northeast\" > 1.35",
+        "confidence": 0.9933186662097067
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"skilled manual\" < 1.3",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"skilled manual\" > 1.375",
+        "confidence": 0.9866143095482
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"february\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"february\" > 1.3250000000000002",
+        "confidence": 0.9977119712228452
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"italy\" < 1.1",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"italy\" > 1.3250000000000002",
+        "confidence": 0.9763546791587484
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"france\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"france\" > 1.3",
+        "confidence": 0.9758867161810627
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"average\" < 1.3",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"average\" > 1.375",
+        "confidence": 0.9789816249609901
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"batman\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"batman\" > 1.3250000000000002",
+        "confidence": 0.9826760068530783
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"europe\" < 1.0",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"europe\" > 1.35",
+        "confidence": 0.9883711112394276
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"panama\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"panama\" > 1.375",
+        "confidence": 0.9953802178761441
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"multi\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"multi\" > 1.3250000000000002",
+        "confidence": 0.996331964943334
+    },
+    {
+        "type": "Embedding",
+        "pre-condition": "80 % column values have their Sentence-BERT embedding distance to \"ca\" < 1.2000000000000002",
+        "post-condition": "values whose Sentence-BERT embedding distance to \"ca\" > 1.3250000000000002",
+        "confidence": 0.9935454628996432
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "80 % of values match pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9387378327198712
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "80 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9003196874132455
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "80 % of values match pattern \"^[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9995874257069917
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "80 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9875991023045763
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "80 % of values match pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9465407803733752
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "80 % of values match pattern \"^[\\+\\-\\d\\.,]+/[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+/[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9335841332189981
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "80 % of values match pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "confidence": 0.9193423526396465
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "85 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9205542241047693
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "85 % of values match pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9529576825907872
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "85 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9920093755790212
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "85 % of values match pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "confidence": 0.9325755460364407
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "90 % of values match pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.96561889326657
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "90 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9371175357889803
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "90 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9945727970777642
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "90 % of values match pattern \"^[a-zA-Z]+_[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+_[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9224011964206393
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "90 % of values match pattern \"^[\\+\\-\\d\\.,]+/[a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+/[a-zA-Z]+$\"",
+        "confidence": 0.9100406253761468
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "93 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9497011360786349
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "93 % of values match pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "confidence": 0.9470405148534973
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "93 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.908702880433431
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "93 % of values match pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+$\"",
+        "confidence": 0.9084664094831288
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "93 % of values match pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9795849443151438
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "93 % of values match pattern \"^[\\+\\-\\d\\.,]+/[a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+/[a-zA-Z]+$\"",
+        "confidence": 0.9378800031047062
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "93 % of values match pattern \"^[a-zA-Z]+_[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+_[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9439701231255324
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "95 % of values match pattern \"^[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9997826515175107
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "95 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9616110412220635
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "95 % of values match pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9807986799636502
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "95 % of values match pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+$\"",
+        "confidence": 0.9280479112929207
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "95 % of values match pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "confidence": 0.900142344866112
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "95 % of values match pattern \"^[\\+\\-\\d\\.,]+/[a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+/[a-zA-Z]+$\"",
+        "confidence": 0.9378800031047062
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "95 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.935937560794172
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "97 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9722261588856169
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "97 % of values match pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9845068586206793
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "97 % of values match pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9077063215361901
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "97 % of values match pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9244398288016114
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "97 % of values match pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9633580563440467
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "97 % of values match pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "confidence": 0.9169976672927104
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "97 % of values match pattern \"^[\\+\\-\\d\\.,]+/[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+/[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9077182120920646
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "97 % of values match pattern \"^[a-zA-Z]+ [a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+ [a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9444438369076963
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "98 % of values match pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9876951559453533
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "98 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9772911786104681
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "98 % of values match pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "confidence": 0.925796790231657
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "98 % of values match pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+$\"",
+        "confidence": 0.9339023994322388
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "98 % of values match pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9262494625796286
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "98 % of values match pattern \"^[\\+\\-\\d\\.,]+/[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+/[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9142995722754954
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "98 % of values match pattern \"^[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9090320424906206
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "98 % of values match pattern \"^[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9286499658256813
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "98 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9433418804117943
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9886232923878894
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[\\+\\-\\d\\.,]+_[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+_[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9572402984808819
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9903384427927329
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "confidence": 0.9475555550048473
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9486858056776384
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9282646257525622
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[\\+\\-\\d\\.,]+/[\\+\\-\\d\\.,]+/[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+/[\\+\\-\\d\\.,]+/[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.908340414840773
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9510898249206846
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+:[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "confidence": 0.9637042523922541
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+ [a-zA-Z]+$\"",
+        "confidence": 0.9460404275153969
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[\\+\\-\\d\\.,]+/[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[\\+\\-\\d\\.,]+/[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.935228734290487
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+ [\\+\\-\\d\\.,]+ [\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9229238226702192
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+$\"",
+        "confidence": 0.9302090971497624
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+[a-zA-Z]+[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9143295511310926
+    },
+    {
+        "type": "Pattern",
+        "pre-condition": "99 % of values match pattern \"^\\$[\\+\\-\\d\\.,]+$\"",
+        "post-condition": "values not matching pattern \"^\\$[\\+\\-\\d\\.,]+$\"",
+        "confidence": 0.9200052672522921
+    },
+    {
+        "type": "Function",
+        "pre-condition": "95 % of values return True on function \"validate_url\" in Dataprep",
+        "post-condition": "values that return False on function \"validate_url\" in Dataprep",
+        "confidence": 0.9012887971431989
+    },
+    {
+        "type": "Function",
+        "pre-condition": "97 % of values return True on function \"validate_url\" in Dataprep",
+        "post-condition": "values that return False on function \"validate_url\" in Dataprep",
+        "confidence": 0.9218875792987073
+    },
+    {
+        "type": "Function",
+        "pre-condition": "98 % of values return True on function \"validate_url\" in Dataprep",
+        "post-condition": "values that return False on function \"validate_url\" in Dataprep",
+        "confidence": 0.9366764959447837
+    },
+    {
+        "type": "Function",
+        "pre-condition": "99 % of values return True on function \"validate_url\" in Dataprep",
+        "post-condition": "values that return False on function \"validate_url\" in Dataprep",
+        "confidence": 0.9595429516936541
+    },
+    {
+        "type": "Function",
+        "pre-condition": "80 % of values return True on function \"validate_date\" in Dataprep",
+        "post-condition": "values that return False on function \"validate_date\" in Dataprep",
+        "confidence": 0.9893329514176761
+    },
+    {
+        "type": "Function",
+        "pre-condition": "85 % of values return True on function \"validate_date\" in Dataprep",
+        "post-condition": "values that return False on function \"validate_date\" in Dataprep",
+        "confidence": 0.9911917204877632
+    },
+    {
+        "type": "Function",
+        "pre-condition": "90 % of values return True on function \"validate_date\" in Dataprep",
+        "post-condition": "values that return False on function \"validate_date\" in Dataprep",
+        "confidence": 0.9920741125275814
+    },
+    {
+        "type": "Function",
+        "pre-condition": "93 % of values return True on function \"validate_date\" in Dataprep",
+        "post-condition": "values that return False on function \"validate_date\" in Dataprep",
+        "confidence": 0.9934088967358622
+    },
+    {
+        "type": "Function",
+        "pre-condition": "95 % of values return True on function \"validate_date\" in Dataprep",
+        "post-condition": "values that return False on function \"validate_date\" in Dataprep",
+        "confidence": 0.9943077510441567
+    },
+    {
+        "type": "Function",
+        "pre-condition": "97 % of values return True on function \"validate_date\" in Dataprep",
+        "post-condition": "values that return False on function \"validate_date\" in Dataprep",
+        "confidence": 0.9952727602101503
+    },
+    {
+        "type": "Function",
+        "pre-condition": "98 % of values return True on function \"validate_date\" in Dataprep",
+        "post-condition": "values that return False on function \"validate_date\" in Dataprep",
+        "confidence": 0.9958464012480749
+    },
+    {
+        "type": "Function",
+        "pre-condition": "99 % of values return True on function \"validate_date\" in Dataprep",
+        "post-condition": "values that return False on function \"validate_date\" in Dataprep",
+        "confidence": 0.9971302445345501
+    },
+    {
+        "type": "Function",
+        "pre-condition": "99 % of values return True on function \"validate_email\" in Dataprep",
+        "post-condition": "values that return False on function \"validate_email\" in Dataprep",
+        "confidence": 0.9432680162715692
+    },
+    {
+        "type": "Function",
+        "pre-condition": "99 % of values return True on function \"email\" in Validators",
+        "post-condition": "values return False on function \"email\" in Validators",
+        "confidence": 0.9432680162715692
+    },
+    {
+        "type": "Function",
+        "pre-condition": "80 % of values return True on function \"url\" in Validators",
+        "post-condition": "values return False on function \"url\" in Validators",
+        "confidence": 0.9366872788918671
+    },
+    {
+        "type": "Function",
+        "pre-condition": "85 % of values return True on function \"url\" in Validators",
+        "post-condition": "values return False on function \"url\" in Validators",
+        "confidence": 0.9430324843905461
+    },
+    {
+        "type": "Function",
+        "pre-condition": "90 % of values return True on function \"url\" in Validators",
+        "post-condition": "values return False on function \"url\" in Validators",
+        "confidence": 0.9484262320714663
+    },
+    {
+        "type": "Function",
+        "pre-condition": "93 % of values return True on function \"url\" in Validators",
+        "post-condition": "values return False on function \"url\" in Validators",
+        "confidence": 0.9506130424486886
+    },
+    {
+        "type": "Function",
+        "pre-condition": "95 % of values return True on function \"url\" in Validators",
+        "post-condition": "values return False on function \"url\" in Validators",
+        "confidence": 0.9528177241246916
+    },
+    {
+        "type": "Function",
+        "pre-condition": "97 % of values return True on function \"url\" in Validators",
+        "post-condition": "values return False on function \"url\" in Validators",
+        "confidence": 0.9584137328811568
+    },
+    {
+        "type": "Function",
+        "pre-condition": "98 % of values return True on function \"url\" in Validators",
+        "post-condition": "values return False on function \"url\" in Validators",
+        "confidence": 0.9641452182901283
+    },
+    {
+        "type": "Function",
+        "pre-condition": "99 % of values return True on function \"url\" in Validators",
+        "post-condition": "values return False on function \"url\" in Validators",
+        "confidence": 0.9700390653686408
+    }
+]
