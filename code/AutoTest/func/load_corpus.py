@@ -6,6 +6,14 @@ from config import config
 CORPUS_NAME = 'PBICSV'
 
 def load_corpus(corpus_name):
+    corpus_name_dict = {'rt_bench': 'labeled_benchmark', 
+                        'st_bench': 'excel_benchmark',
+                        'synthetic': 'PBICSV_validate',
+                        'tablib': 'Tablib_Sample_Large',
+                        'rt_train': 'PBICSV',
+                        'st_train': 'Excel'}
+    if corpus_name in corpus_name_dict.keys(): 
+        corpus_name = corpus_name_dict[corpus_name]
     corpus_loading_fn = {
         'PBICSV': load_PBICSV,
         'Excel': load_ExcelCtrT,
