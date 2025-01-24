@@ -2,11 +2,13 @@
 
 ## Overview:
 
-This file contains instructions to use a prepared docker image (self-contained with data, code and all dependencies), to both reproduce our results and to facilitate future research. 
+This file contains instructions to use a prepared docker image (self-contained with data, code and all dependencies), to both reproduce our results, and to build on our work for future research. 
 
-This docker image was tested on a Ubuntu 20.04 with 64-core 2.4G CPU and 512G memory. 
+Please download our docker image here: https://1drv.ms/f/s!AkvY8ho1gepOjJk29EQYM3h5ahmC_A?e=6lihdc
 
 Please install docker via the [offical instructions](https://docs.docker.com/engine/install/ubuntu/) and make sure docker services are running.
+
+This docker image was tested on a Ubuntu 20.04 with 64-core 2.4G CPU and 512G memory. 
 
 
 ## Start Docker image:
@@ -56,16 +58,16 @@ Be reminded that this step may take 100 - 150 hours to complete, and may require
 
         python3 STEP2_SDC_selection.py <train_corpus_name>
 
-    After this step, the selected SDCs (in human-readable format) can be found in `{work_dir}/results/SDC/<train_corpus_name>_selected_sdc.csv`.
+    After this step, the selected SDC (in human-readable format) can be found in `{work_dir}/results/SDC/<train_corpus_name>_selected_sdc.csv`.
     The selection step can take 2 -3 hours to complete.
 
-- Finally, apply the learnt SDCs on a benchmark for outlier detection:
+- Finally, apply the learnt SDC on a benchmark for outlier detection:
 
         python3 STEP3_SDC_application.py <benchmark_name> <train_corpus_name>
 
     where `<benchmark_name>` is the name of one of the benchmarks: `rt_bench` or `st_bench`.
 
-    `<train_corpus_name>` is the name of the training corpus on which SDCs are learnt (`rt_train`, `st_train`, or `tablib`). 
+    `<train_corpus_name>` is the name of the training corpus on which SDC are learnt (`rt_train`, `st_train`, or `tablib`). 
 
     The detected outliers can be found in `{work_dir}/results/detected_outliers/<train_corpus_name>_learnt_sdc_on_<benchmark_name>.csv`.
 
