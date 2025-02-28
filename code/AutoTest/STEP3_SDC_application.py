@@ -100,4 +100,5 @@ if len(final_res) > 0:
     final_res['conf'] = 1 - final_res['conf']
 
 final_res = final_res.sort_values('conf', ascending = False).rename(columns={"rule": "SDC"})
+print(final_res[['header', 'outlier', 'conf', 'SDC', 'dist_val']])
 final_res[['header', 'ground_truth', 'ground_truth_debatable', 'outlier', 'conf', 'SDC', 'dist_val']].to_csv(f"./results/detected_outliers/{args.sdc}_learnt_sdc_on_{args.benchmark}.csv", index=False)

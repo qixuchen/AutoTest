@@ -2,6 +2,39 @@
 This repo contains data, code and full technical report for **AutoTest**. The data and large files (e.g., doduo models) for this project can be found in our [google drive](https://drive.google.com/drive/folders/15pNNrk9IqXOMofR5b2cpftk4A-AfjQiN?usp=sharing).
 
 
+## Online Error Detection using learned SDCs
+
+Since the offline SDC learning can be time-consuming, we prepared a script to directly apply the SDCs learnt by us to detect errors on benchmarks.
+
+Assume that you have set up the depedencies in a environment named `VENV` (see [installation guide](#installation)). In the activated `VENV`, simply run
+
+    python3 STEP3_SDC_application.py [BENCHMARK_NAME] [SDC_CORPUS]
+
+where `[BENCHMARK_NAME]` is the name of the benchmark, and `[SDC_CORPUS]` is the corpus on which SDC is learnt.
+For example, the following command applies SDCs learnt on `RT-Train` onto benchmark `RT-bench`.
+
+    python3 STEP3_SDC_application.py rt_bench rt_train
+
+*Note:* Although `[SDC_CORPUS]` takes 3 possible values, i.e., `rt_train`, `st_train` and `tablib`, we found that SDCs learnt on `RT-Train` perform the best based on our experiments.
+
+After the script finishes, the detected outliers will be printed out. The following shows an example output.
+
+                           header                                            outlier      conf                                                  val
+             encuesta fecha envio                                                  -  0.997130    [15/08/2019 15:43, 16/08/2019 10:52, 20/08/201...
+                     not_hourname                                            unknown  0.992074    [unknown, 4:00pm-4:59pm, 10:00pm-10:59pm, 5:00...
+               idade_cta (groups)                                       acima de 100  0.991192    [acima de 100, 101 a 200, 13 a 24, 00 a 04, 51...
+                       month name                                            febuary  0.990618    [may, june, october, january, april, september...
+                          country                                         liechstein  0.990517    [germany, austria, france, italy, switzerland,...
+                     state (1790)                                         conneticut  0.989865    [maine, massachusetts, rhode island, conneticu...
+                         ...                                                  ...        ...                              ...
+
+where `header` is the column header, `val` is the column values, `outlier` is the detected error, and `conf` is the confidence of the error.
+
+### Customize your own benchmarks
+
+You may also add your own benchmarks by adding customized code in `func/load_corpus.py`.
+
+
 ## Reproduce: jupyter notebook to reproduce main results
 
 We prepared a Jupyter notebook to reproduce the main results in the paper.
