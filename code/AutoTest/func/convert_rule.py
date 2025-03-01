@@ -71,7 +71,7 @@ def convert_rule(r):
     else:
         raise Exception(f"Unrecognizable rule type: {r[0][0]}")
     
-    return {'type': domain, 'pre-condition': precond, 'post-condition': const, 'confidence': conf}
+    return {'type': domain, 'pre-condition': precond, 'post-condition': const, 'confidence': conf, 'SDC': r}
 
 
 if __name__=='__main__':
@@ -81,9 +81,9 @@ if __name__=='__main__':
     with open(rule_fname, 'rb') as file:
         rules = pickle.load(file)
         
-    converted_rules = pd.DataFrame(columns=['domain', 'precondition', 'constraint', 'confidence'])
+    converted_rules = pd.DataFrame(columns=['domain', 'precondition', 'constraint', 'confidence', 'SDC'])
     for rule in rules:
         converted = convert_rule(rule)
         converted_rules = converted_rules.append(converted, ignore_index=True)
         
-    converted_rules.sort_values('confidence', ascending = False).to_csv(out_fname, index = False)
+    converted_rules.sort_values('confidence', ascending = False).to_csv(out_fname, index = False, sep = '\t')

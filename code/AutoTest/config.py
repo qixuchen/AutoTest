@@ -29,7 +29,7 @@ config.dir.storage_root.doduo = 'preprocess/doduo'
 # folder under config.dir.storage_root_dir where training corpora are stored
 config.dir.storage_root.train_corpora = 'train_corpora' 
 
-# folder where ST_bench and RT_bench should be stored
+# (deprecated) folder where ST_bench and RT_bench should be stored
 config.dir.storage_root.benchmark = 'benchmark' 
 
 # folder where the synthetic dataset for SDC selection should be stored

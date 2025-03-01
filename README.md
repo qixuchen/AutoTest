@@ -8,31 +8,38 @@ Since the offline SDC learning can be time-consuming, we prepared a script to di
 
 Assume that you have set up the depedencies in a environment named `VENV` (see [installation guide](#installation)). In the activated `VENV`, simply run
 
-    python3 STEP3_SDC_application.py [BENCHMARK_NAME] [SDC_CORPUS]
+    python3 STEP3_SDC_application.py [PATH_TO_BENCHMARK] [PATH_TO_SDC]
 
-where `[BENCHMARK_NAME]` is the name of the benchmark, and `[SDC_CORPUS]` is the corpus on which SDC is learnt.
-For example, the following command applies SDCs learnt on `RT-Train` onto benchmark `RT-bench`.
+where `[PATH_TO_BENCHMARK]` is the path to the benchmark file, and `[PATH_TO_SDC]` is path to the file storing the learned SDCs.
 
-    python3 STEP3_SDC_application.py rt_bench rt_train
+You could provide your own benchmark for error detection. An example benchmark could be a `\t`-separated CSV file as follows.
 
-*Note:* Although `[SDC_CORPUS]` takes 3 possible values, i.e., `rt_train`, `st_train` and `tablib`, we found that SDCs learnt on `RT-Train` perform the best based on our experiments.
+                       header                                           dist_val
+    0               objective  ['increase number of staff members actively en...
+    1                    name  ['trailer tax', 'current personal property tax...
+    2     provide status only                ['completed', 'planned', 'ongoing']
+    3          is main secode    ['n', 'y', 'secode not found in mapping table']
+    4                     NaN  ['alexandria', 'brunswick', 'chesterfield', 'c...
+    ...                   ...                                                ...
+
+In particular, it must contain a column named `dist_val` that contains the list of column values. The rest of the column names can be arbitrary.
+
+The SDC learnt by us could be located in `code/AutoTest/results/SDC`. 
+
+**Note:** Although we provide SDCs mined on 3 corpora, i.e., `RT-Train`, `ST-Train` and `Tablib`, we found that SDCs learnt on `RT-Train` perform the best based on our experiments.
 
 After the script finishes, the detected outliers will be printed out. The following shows an example output.
 
-                           header                                            outlier      conf                                                  val
-             encuesta fecha envio                                                  -  0.997130    [15/08/2019 15:43, 16/08/2019 10:52, 20/08/201...
-                     not_hourname                                            unknown  0.992074    [unknown, 4:00pm-4:59pm, 10:00pm-10:59pm, 5:00...
-               idade_cta (groups)                                       acima de 100  0.991192    [acima de 100, 101 a 200, 13 a 24, 00 a 04, 51...
-                       month name                                            febuary  0.990618    [may, june, october, january, april, september...
-                          country                                         liechstein  0.990517    [germany, austria, france, italy, switzerland,...
-                     state (1790)                                         conneticut  0.989865    [maine, massachusetts, rhode island, conneticu...
-                         ...                                                  ...        ...                              ...
+                           header                                    outlier      conf                                                  val
+             encuesta fecha envio                                          -  0.997130    [15/08/2019 15:43, 16/08/2019 10:52, 20/08/201...
+                     not_hourname                                    unknown  0.992074    [unknown, 4:00pm-4:59pm, 10:00pm-10:59pm, 5:00...
+               idade_cta (groups)                               acima de 100  0.991192    [acima de 100, 101 a 200, 13 a 24, 00 a 04, 51...
+                       month name                                    febuary  0.990618    [may, june, october, january, april, september...
+                          country                                 liechstein  0.990517    [germany, austria, france, italy, switzerland,...
+                     state (1790)                                 conneticut  0.989865    [maine, massachusetts, rhode island, conneticu...
+                         ...                                          ...        ...                              ...
 
 where `header` is the column header, `val` is the column values, `outlier` is the detected error, and `conf` is the confidence of the error.
-
-### Customize your own benchmarks
-
-You may also add your own benchmarks by adding customized code in `func/load_corpus.py`.
 
 
 ## Reproduce: jupyter notebook to reproduce main results
@@ -108,26 +115,43 @@ The code for the paper can be found under `code/AutoTest`. Before running the co
 
 ### (1) Offline SDC generation and quality assessment
 
-The code for SDC generation and quality assessment can be found in `STEP1_SDC_generation.ipynb`.
+The code for SDC generation and quality assessment can be found in `STEP1_SDC_generation.py`.
+
+Usage: 
+
+    python3 STEP1_SDC_generation.py [CORPUS_NAME]
+
+where `[CORPUS_NAME]` is one of the values in `rt_train`, `st_train`, and `tablib`. 
 
 This part takes an unlabeled large corpus as an input and mines SDC in a variety of domains (see the paper for details).
-The mined SDC are stored in `AutoTest/output/rule` by default.
+The mined SDCs are stored in `config.dir.project_base_dir/config.dir.project_base.sdc_output` by default, where `config.dir.project_base_dir` and `config.dir.project_base.sdc_output` are two directories set by you in `config.py` (see [configuration setup](#configuration-setup)).
 
 The code for this part is expected to be slow on a personal device. 
 It took us more than 50 hours to train on a corpus with ~200K columns, on a machine with 2.4GHz 64-core CPU and 512G memory. 
 
 ### (2) Offline SDC selection
 
-The code for coarse-grained and fine-grained SDC selection are in `STEP2_SDC_selection.ipynb`.
+The code for coarse-grained and fine-grained SDC selection are in `STEP2_SDC_selection.py`.
 
-The input is the set of SDC mined from the previous step. A selected subset of SDC that satisfies the specified constraints is returned.
+Usage: 
 
-As a demonstration, you may check `sdc_readables.json` which contains SDC selected by the fine-grained selection process, converted to human-readable format.
+    python3 STEP2_SDC_generation.py [CORPUS_NAME]
+
+where `[CORPUS_NAME]` takes one of the values in `rt_train`, `st_train`, and `tablib`. 
+
+The input is the set of SDCs mined from the previous step. A selected subset of SDCs that satisfies the specified constraints is returned.
+
+As a demonstration, you may check our learned SDCs in `code/AutoTest/results/SDC` which contains SDCs selected by the fine-grained selection process, converted to human-readable format.
 
 ### (3) Online inference using SDC
 
-`STEP3_SDC_application.ipynb` contains the code for applying mined rule on test columns to detect possible errors.
+`STEP3_SDC_application.py` contains the code for applying mined rule on test columns to detect possible errors.
 
+Usage:
+    
+    python3 STEP3_SDC_application.py [PATH_TO_BENCHMARK] [PATH_TO_SDC]
+
+For other details of this part please refer to [Online Error Detection using learned SDCs](#online-error-detection-using-learned-sdcs).
 
 ## Installation
 

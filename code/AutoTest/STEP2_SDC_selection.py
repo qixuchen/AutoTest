@@ -72,8 +72,8 @@ fine_select_rule_file = os.path.join(config.dir.project_base_dir, config.dir.pro
 with open(fine_select_rule_file, 'wb') as file:
     pickle.dump(selected_rules, file)
     
-converted_rules = pd.DataFrame(columns=['type', 'pre-condition', 'post-condition', 'confidence'])
+converted_rules = pd.DataFrame(columns=['type', 'pre-condition', 'post-condition', 'confidence', 'SDC'])
 for rule in selected_rules:
     converted = convert_rule.convert_rule(rule)
     converted_rules = converted_rules.append(converted, ignore_index=True)   
-converted_rules.sort_values('confidence', ascending = False).to_csv(f"./results/SDC/{args.corpus}_selected_sdc.csv", index = False)
+converted_rules.sort_values('confidence', ascending = False).to_csv(f"./results/SDC/{args.corpus}_selected_sdc.csv", index = False, sep = '\t')
