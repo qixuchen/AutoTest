@@ -6,44 +6,40 @@ This repo contains data, code and full technical report for **AutoTest**. The da
 
 Since the offline SDC learning can be time-consuming, we prepared a script to directly apply the SDCs learnt by us to detect errors on benchmarks.
 
-Assume that you have set up the depedencies in a environment named `VENV` (see [installation guide](#installation)). In the activated `VENV`, simply run
+Assume that you have set up the depedencies in a environment named `VENV` (see [installation guide](#installation)). After activating `VENV`, navigate into directory `AutoTest` and run
 
-    python3 STEP3_SDC_application.py [PATH_TO_BENCHMARK] [PATH_TO_SDC]
+    python3 ./online_detect.py [PATH_TO_CSV_FILE] [PATH_TO_SDC]
 
-where `[PATH_TO_BENCHMARK]` is the path to the benchmark file, and `[PATH_TO_SDC]` is path to the file storing the learned SDCs.
+where `[PATH_TO_CSV_FILE]` is the path to the target csv file for error detection, and `[PATH_TO_SDC]` is the path to the file storing the learned SDCs.
 
-### Load benchmarks
+### Example
 
-You could provide your own benchmark for error detection. An example benchmark could be a `\t`-separated CSV file as follows.
+As an example, the following shows a comma-separated toy csv file in `./unit-test/example.csv`.
 
-                       header                                           dist_val
-    0               objective  ['increase number of staff members actively en...
-    1                    name  ['trailer tax', 'current personal property tax...
-    2     provide status only                ['completed', 'planned', 'ongoing']
-    3          is main secode    ['n', 'y', 'secode not found in mapping table']
-    4                     NaN  ['alexandria', 'brunswick', 'chesterfield', 'c...
-    ...                   ...                                                ...
+    country,    statecode,  month,      city,       date
+    Germany,    FL,         january,    mankanto,   12/3/2020
+    Austria,    AZ,         febuary,    st peter,   11/5/2020
+    France,     CA,         march,      seattle,    2/5/2021
+    Liechstein, OK,         april,      saint paul, 10/23/2020
+    Italy,      germany,    may,        shakopee,   10/7/2020
+    Switzerland,AL,         june,       phoenix,    new facility
+    Poland,     GA,         july,       farimont,   3/26/2021
 
-In particular, it must contain a column named `dist_val` that contains the list of column values. The rest of the column names can be arbitrary.
-
-### Load learned SDCs
-
-The SDC learnt by us could be located in `code/AutoTest/results/SDC`. 
+The SDC learnt by us can be located in `./results/SDC`. We will use the SDCs learned on `RT-Train`, which are stored in `./results/SDC/rt_train_selected_sdc.csv`.
 
 **Note:** Although we provide SDCs mined on 3 corpora, i.e., `RT-Train`, `ST-Train` and `Tablib`, we found that SDCs learnt on `RT-Train` perform the best based on our experiments.
 
-### Output
+Run the following command:
+
+    python3 ./online_detect.py ./unit_test/example.csv ./results/SDC/rt_train_selected_sdc.csv
 
 After the script finishes, the detected outliers will be printed out. The following shows an example output.
 
-                           header                                    outlier      conf                                                  val
-             encuesta fecha envio                                          -  0.997130    [15/08/2019 15:43, 16/08/2019 10:52, 20/08/201...
-                     not_hourname                                    unknown  0.992074    [unknown, 4:00pm-4:59pm, 10:00pm-10:59pm, 5:00...
-               idade_cta (groups)                               acima de 100  0.991192    [acima de 100, 101 a 200, 13 a 24, 00 a 04, 51...
-                       month name                                    febuary  0.990618    [may, june, october, january, april, september...
-                          country                                 liechstein  0.990517    [germany, austria, france, italy, switzerland,...
-                     state (1790)                                 conneticut  0.989865    [maine, massachusetts, rhode island, conneticu...
-                         ...                                          ...        ...                              ...
+    header      outlier         conf                val                                               
+    date        new facility    0.991192            [10/7/2020, 11/5/2020, 3/26/2021, 10/23/2020, ...  
+    month       febuary         0.987600            [july, may, april, june, febuary, january, march] 
+    statecode   germany         0.977514            [germany, CA, OK, FL, AL, GA, AZ]                  
+    country     Liechstein      0.962790            [Germany, Italy, Switzerland, Austria, Liechst...  
 
 where `header` is the column header, `val` is the column values, `outlier` is the detected error, and `conf` is the confidence of the error.
 
@@ -157,7 +153,9 @@ Usage:
     
     python3 STEP3_SDC_application.py [PATH_TO_BENCHMARK] [PATH_TO_SDC]
 
-For other details of this part please refer to [Online Error Detection using learned SDCs](#online-error-detection-using-learned-sdcs).
+where `[PATH_TO_BENCHMARK]` is the path to one of the benchmark files (i.e., `RT-bench` or `ST-bench`), and `[PATH_TO_SDC]`is the path to the file storing the learned SDCs.
+
+The result for this step, i.e., the detected errors, can be found in `code/AutoTest/results/detected_outliers`.
 
 ## Installation
 

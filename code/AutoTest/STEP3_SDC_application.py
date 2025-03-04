@@ -12,8 +12,8 @@ from check import embed_check, sherlock_check, doduo_check, pattern_check, sbert
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("sdc_fname", help="Path to the file of learned SDCs.")
 parser.add_argument("benchmark_fname", help="Path to the benchmark.")
+parser.add_argument("sdc_fname", help="Path to the file of learned SDCs.")
 args = parser.parse_args()
 
 benchmark_fname = os.path.splitext(os.path.basename(args.benchmark_fname))[0]
