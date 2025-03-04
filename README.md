@@ -168,6 +168,10 @@ After downloading the repo, create a virtual environment `VENV`. Then install al
     cd ./AutoTest
     pip install -r requirements.txt
 
+You also need to run the following script to set up SentenceBERT and Sherlock.
+
+    python3 sbert_sherlock_setup.py
+
 ### Configuration setup
 
 Before running the code, you need to specify the directories where you want store the results, datasets and SDCs in `config.py`. 
