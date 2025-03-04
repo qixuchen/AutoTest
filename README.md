@@ -6,7 +6,7 @@ Large data and model files (e.g., doduo models) used in the project that cannot 
 
 ## Overview:
 Our "Auto-Test" approach automatically detects data errors in tables. It consists of two steps: 
-- Step-1: At offline time, using a large table corpora and in an unsupervised manner, it learns a new form of data-cleaning constraints that we call Semantic-Domain Constraints (SDCs);
+- Step-1: At offline training time, using a large table corpora and in an unsupervised manner, it learns a new form of data-cleaning constraints that we call Semantic-Domain Constraints (SDCs);
 - Step-2: At online prediction time, the learned SDCs can be applied efficiently at interactive speed (sub-second latency) to detect errors in new tables, without separate training required (because SDCs use a generic notion of semantic domains, like explained in the paper). 
 
 
