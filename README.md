@@ -5,6 +5,7 @@ Large data and model files (e.g., doduo models) used in the project that cannot 
 
 
 ## Overview:
+
 Our "Auto-Test" approach automatically detects data errors in tables. It consists of two steps: 
 - Step-1: At offline training time, using a large table corpora and in an unsupervised manner, it learns a new form of data-cleaning constraints that we call Semantic-Domain Constraints (SDCs);
 - Step-2: At online prediction time, the learned SDCs can be applied efficiently at interactive speed (sub-second latency) to detect errors in new tables, without separate training required (because SDCs use a generic notion of semantic domains, like explained in the paper). 
@@ -35,14 +36,16 @@ where `[PATH_TO_CSV_FILE]` is the path to a CSV file on which errors need to be 
 
 As an example to demonstrate, the following shows a comma-separated toy csv file in `./unit-test/example.csv` (similar to the demo example in our paper).
 
+<pre>
     country,    statecode,  month,      city,       date
     Germany,    FL,         january,    mankanto,   12/3/2020
-    Austria,    AZ,         febuary,    st peter,   11/5/2020
+    Austria,    AZ,         <b>febuary</b>,    st peter,   11/5/2020
     France,     CA,         march,      seattle,    2/5/2021
-    Liechstein, OK,         april,      saint paul, 10/23/2020
-    Italy,      germany,    may,        shakopee,   10/7/2020
-    Switzerland,AL,         june,       phoenix,    new facility
-    Poland,     GA,         july,       farimont,   3/26/2021
+    <b>Liechstein</b>, OK,         april,      saint paul, 10/23/2020
+    Italy,      <b>germany</b>,    may,        shakopee,   10/7/2020
+    Switzerland,AL,         june,       phoenix,    <b>new facility</b>
+    Poland,     GA,         july,       <b>farimont</b>,   3/26/2021
+</pre>
 
 All Semantic-Domain Constraints (SDCs) learned offline are pre-populated in `./results/SDC`. There are three such SDC files, `RT-Train`, `ST-Train` and `Tablib`, corresponding to constraints learned from 3 different training corpora. We found that SDCs learnt on `RT-Train` perform the best, and will use this file located at `./results/SDC/rt_train_selected_sdc.csv`.
 
