@@ -35,32 +35,32 @@ doduo_dist_val_scores = None
 
 if any([rule[0][0] == 'sbert' for rule in rule_list]):
     print(f"Computing SentenceBERT embeddings for {args.csv_fname}")
-    sbert_dist_val_embeddings = sbert_utils.dist_val_embeddings_parallel(df, n_proc = 8)
+    sbert_dist_val_embeddings = sbert_utils.dist_val_embeddings_parallel(df, n_proc = 2)
 
 if any([rule[0][0] == 'doduo' for rule in rule_list]):
     print(f"Computing Doduo preprocessing results for {args.csv_fname}")
     doduo_intermediate_result_dir = os.path.join(config.dir.storage_root_dir, config.dir.storage_root.doduo)
-    doduo_dist_val_scores_fname = os.path.join(config.dir.storage_root_dir, config.dir.storage_root.doduo, f'{csv_fname}_dist_val_scores.pickle')
-    doduo_utils.dist_val_scores_parallel(df, doduo_intermediate_result_dir, doduo_dist_val_scores_fname, n_proc = 15)
-    doduo_dist_val_scores = pd.read_pickle(doduo_dist_val_scores_fname)
+    doduo_dist_val_scores_fname = f'{csv_fname}_dist_val_scores.pickle'
+    doduo_utils.dist_val_scores_parallel(df, doduo_intermediate_result_dir, doduo_dist_val_scores_fname, n_proc = 2)
+    doduo_dist_val_scores = pd.read_pickle(os.path.join(config.dir.storage_root_dir, config.dir.storage_root.doduo, doduo_dist_val_scores_fname))
 
 pre_list = list(set([r[0] for r in rule_list]))
-test_matching_dict = utils.build_matching_idx_dict_from_pre_list_parallel(df, pre_list, n_proc = 32, sbert_dist_val_embeddings = sbert_dist_val_embeddings, doduo_dist_val_scores = doduo_dist_val_scores)
+test_matching_dict = utils.build_matching_idx_dict_from_pre_list_parallel(df, pre_list, n_proc = 2, sbert_dist_val_embeddings = sbert_dist_val_embeddings, doduo_dist_val_scores = doduo_dist_val_scores)
 
 
 results = []
 if any([rule[1][0] == 'cta' for rule in rule_list]):
     sub_rule_list = [rule for rule in rule_list if rule[1][0] == 'cta']
-    results += sherlock_check.sherlock_check_parallel(df, test_matching_dict, sub_rule_list, n_proc = 48)
+    results += sherlock_check.sherlock_check_parallel(df, test_matching_dict, sub_rule_list, n_proc = 2)
 if any([rule[1][0] == 'doduo' for rule in rule_list]):
     sub_rule_list = [rule for rule in rule_list if rule[1][0] == 'doduo']
-    results += doduo_check.doduo_check_parallel(df, test_matching_dict, sub_rule_list, n_proc = 15, doduo_dist_val_scores = doduo_dist_val_scores)
+    results += doduo_check.doduo_check_parallel(df, test_matching_dict, sub_rule_list, n_proc = 2, doduo_dist_val_scores = doduo_dist_val_scores)
 if any([rule[1][0] == 'embed' for rule in rule_list]):
     sub_rule_list = [rule for rule in rule_list if rule[1][0] == 'embed']
-    results += embed_check.embed_check_parallel(df, test_matching_dict, sub_rule_list, n_proc = 48)
+    results += embed_check.embed_check_parallel(df, test_matching_dict, sub_rule_list, n_proc = 2)
 if any([rule[1][0] == 'sbert' for rule in rule_list]):
     sub_rule_list = [rule for rule in rule_list if rule[1][0] == 'sbert']
-    results += sbert_check.sbert_check_parallel(df, test_matching_dict, sub_rule_list, n_proc = 8, sbert_dist_val_embeddings = sbert_dist_val_embeddings)
+    results += sbert_check.sbert_check_parallel(df, test_matching_dict, sub_rule_list, n_proc = 2, sbert_dist_val_embeddings = sbert_dist_val_embeddings)
 if any([rule[1][0] == 'pattern' for rule in rule_list]):
     sub_rule_list = [rule for rule in rule_list if rule[1][0] == 'pattern']
     results += pattern_check.pattern_check(df, test_matching_dict, sub_rule_list)

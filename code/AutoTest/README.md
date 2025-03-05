@@ -1,33 +1,54 @@
 # AutoTest: 
-This repo contains data, code and full technical report for **AutoTest**. The data and large files (e.g., doduo models) for this project can be found in our [google drive](https://drive.google.com/drive/folders/15pNNrk9IqXOMofR5b2cpftk4A-AfjQiN?usp=sharing).
+This repo contains data, code and full technical report for **Auto-Test: Learning Semantic-Domain Constraints for Unsupervised Error Detection in Tables** (to appear in SIGMOD 2025). 
+
+Large data and model files (e.g., doduo models) used in the project that cannot be uploaded to GitHub can be found in this [google drive](https://drive.google.com/drive/folders/15pNNrk9IqXOMofR5b2cpftk4A-AfjQiN?usp=sharing).
 
 
-## Online Error Detection using learned SDCs
+## Overview:
 
-Since the offline SDC learning can be time-consuming, we prepared a script to directly apply the SDCs learnt by us to detect errors on benchmarks.
+Our "Auto-Test" approach automatically detects data errors in tables. It consists of two steps: 
+- Step-1: At offline training time, using a large table corpora and in an unsupervised manner, it learns a new form of data-cleaning constraints that we call Semantic-Domain Constraints (SDCs);
+- Step-2: At online prediction time, the learned SDCs can be applied efficiently at interactive speed (sub-second latency) to detect errors in new tables, without separate training required (because SDCs use a generic notion of semantic domains, like explained in the paper). 
 
-Assume that you have set up the depedencies in a environment named `VENV` (see [installation guide](#installation)). After activating `VENV`, navigate into directory `AutoTest` and run
 
-    python3 ./online_detect.py [PATH_TO_CSV_FILE] [PATH_TO_SDC]
 
-where `[PATH_TO_CSV_FILE]` is the path to the target csv file for error detection, and `[PATH_TO_SDC]` is the path to the file storing the learned SDCs.
 
-### Example
+## Use Auto-Test: 
 
-As an example, the following shows a comma-separated toy csv file in `./unit-test/example.csv`.
+There are two ways to use Auto-Test: 
+- Only run Step-2 (easy):  we can reuse pre-trained SDCs from Step-1, to make new predictions on new tables
+- Rerun both Step-1 and Step-2 (more time-consuming):  we can perform offline training from scratch to learn new SDCs, and then make predictions on new tables
 
+We will describe both approaches below in turn.
+
+### Only run Step-2 (easy): Reuse pre-trained SDCs to make new predictions
+
+Since the offline SDC learning process can be time-consuming, we imagine that the most straightforward way to reuse Auto-Test is to directly apply the SDC constraints already learned offline, to new test tables where errors need to be detected. 
+
+Please first refer to the [installation guide](#installation) to set up the depedencies and an environment named `VENV`. In the activated `VENV`, simply run
+
+    python3 STEP3_SDC_application.py [PATH_TO_CSV_FILE] [PATH_TO_SDC_FILE]
+
+where `[PATH_TO_CSV_FILE]` is the path to a CSV file on which errors need to be detected, and `[PATH_TO_SDC_FILE]` is path to a pre-trained SDC file learned offline.
+
+
+#### A simple demo example
+
+As an example to demonstrate, the following shows a comma-separated toy csv file in `./unit-test/example.csv` (similar to the demo example in our paper).
+
+<pre>
     country,    statecode,  month,      city,       date
     Germany,    FL,         january,    mankanto,   12/3/2020
-    Austria,    AZ,         febuary,    st peter,   11/5/2020
+    Austria,    AZ,         <b>febuary</b>,    st peter,   11/5/2020
     France,     CA,         march,      seattle,    2/5/2021
-    Liechstein, OK,         april,      saint paul, 10/23/2020
-    Italy,      germany,    may,        shakopee,   10/7/2020
-    Switzerland,AL,         june,       phoenix,    new facility
-    Poland,     GA,         july,       farimont,   3/26/2021
+    <b>Liechstein</b>, OK,         april,      saint paul, 10/23/2020
+    Italy,      <b>germany</b>,    may,        shakopee,   10/7/2020
+    Switzerland,AL,         june,       phoenix,    <b>new facility</b>
+    Poland,     GA,         july,       <b>farimont</b>,   3/26/2021
+</pre>
 
-The SDC learnt by us can be located in `./results/SDC`. We will use the SDCs learned on `RT-Train`, which are stored in `./results/SDC/rt_train_selected_sdc.csv`.
+All Semantic-Domain Constraints (SDCs) learned offline are pre-populated in `./results/SDC`. There are three such SDC files, `RT-Train`, `ST-Train` and `Tablib`, corresponding to constraints learned from 3 different training corpora. We found that SDCs learnt on `RT-Train` perform the best, and will use this file located at `./results/SDC/rt_train_selected_sdc.csv`.
 
-**Note:** Although we provide SDCs mined on 3 corpora, i.e., `RT-Train`, `ST-Train` and `Tablib`, we found that SDCs learnt on `RT-Train` perform the best based on our experiments.
 
 Run the following command:
 
@@ -43,20 +64,23 @@ After the script finishes, the detected outliers will be printed out. The follow
 
 where `header` is the column header, `val` is the column values, `outlier` is the detected error, and `conf` is the confidence of the error.
 
+## Rerun both Step-1 and Step-2: Perform both offline learning and make new predictions 
 
-## Reproduce: jupyter notebook to reproduce main results
+To fully rerun the offline training in Step-1 (can be time-consuming), and online prediciton in Step-2, please follow the following steps. 
 
-We prepared a Jupyter notebook to reproduce the main results in the paper.
+### Reproduce: jupyter notebook to reproduce main results
+
+We prepared a set of Jupyter notebooks so that others can follow along end-to-end, to reproduce the results in the paper.
 
 In `code/AutoTest_reproduce_main_results.ipynb` we  (1) reproduce our main results in this notebook, including the PR curves of methods compared in the paper (Figure 7 and 8 of the paper), and (2) demonstrate examples errors detected by our proposed SDC on the benchmarks (in output cells).
 
 
 
-## Data: train and benchmark datasets
+### Data: train and benchmark datasets
 
 We make our training corpora (`RT-train`, `ST-train`) and the two 1200-column benchmark data  (`RT-bench`, `ST-bench`) available in `data` folder of our [google drive](https://drive.google.com/drive/folders/15pNNrk9IqXOMofR5b2cpftk4A-AfjQiN?usp=sharing) (described in Section 5.1 of the paper). We will release the benchmark data publicly once the double-blind review process is complete.
 
-### Training corpora
+#### Training corpora
 
 Each line in the training corpora `RT-train` and `ST-train` corresponds to a extracted column. Each line has 4 fields (tab-separated) and the meaning of each field from left to right is as follows.
 
@@ -75,7 +99,7 @@ Values in `dist_val_str` are concatenated using `___`. For example, a column wit
 
 corresponds to a column with 4 values a, b, c and d.
 
-### Two 1200-column benchmark data
+#### Two 1200-column benchmark data
 
 Each row in `RT-bench` and `ST-bench` corresponds to a table column. 
 
@@ -92,7 +116,7 @@ Each row is described by the following fields:
 `dist_val_count` : number of distinct column values
 
 
-### Synthetic corpus for SDC selection
+#### Synthetic corpus for SDC selection
 
 The synthetic dataset used for SDC selection is stored in `synthetic.txt`. Each line corresponds to a synthesized column and has 4 fields (tab-separated).
 
@@ -104,18 +128,18 @@ The synthetic dataset used for SDC selection is stored in `synthetic.txt`. Each 
 
 `dist_val_count` : number of distinct column values
 
-### Data cleaning benchmarks
+#### Data cleaning benchmarks
 
 The `experiments_using_data_cleaning_benchmarks` folder contains (1) the 9 input benchmark datasets used in our experiment in `data_cleaning_benchmark.txt` (Table 7 of our paper), and (2) the output from running our SDC in `data_clean_sdc.csv`, which shows the new SDC that can be applied on any columns in `data_cleaning_benchmark.txt`.
 
 
 
 
-## Code: main repo
+### Code: main repo
 
 The code for the paper can be found under `code/AutoTest`. Before running the code, please follow the Installation section carefully for setup instructions.
 
-### (1) Offline SDC generation and quality assessment
+#### (1) Offline SDC generation and quality assessment
 
 The code for SDC generation and quality assessment can be found in `STEP1_SDC_generation.py`.
 
@@ -131,7 +155,7 @@ The mined SDCs are stored in `config.dir.project_base_dir/config.dir.project_bas
 The code for this part is expected to be slow on a personal device. 
 It took us more than 50 hours to train on a corpus with ~200K columns, on a machine with 2.4GHz 64-core CPU and 512G memory. 
 
-### (2) Offline SDC selection
+#### (2) Offline SDC selection
 
 The code for coarse-grained and fine-grained SDC selection are in `STEP2_SDC_selection.py`.
 
@@ -145,7 +169,7 @@ The input is the set of SDCs mined from the previous step. A selected subset of 
 
 As a demonstration, you may check our learned SDCs in `code/AutoTest/results/SDC` which contains SDCs selected by the fine-grained selection process, converted to human-readable format.
 
-### (3) Online inference using SDC
+#### (3) Online inference using SDC
 
 `STEP3_SDC_application.py` contains the code for applying mined rule on test columns to detect possible errors.
 
@@ -159,18 +183,23 @@ The result for this step, i.e., the detected errors, can be found in `code/AutoT
 
 ## Installation
 
-The project is developed on a Ubuntu system with 2.4GHz 64-core CPU, 512G memory, and a Python version 3.7.16.
+The project is developed on a Ubuntu 20.04 system with 2.4GHz 64-core CPU, 512G memory, and Python version 3.7.16.
+
+First, set up rust and cargo, which is required for SentenceBERT installation.
+
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+Then restart your terminal and run
+
+    source $HOME/.cargo/env
 
 After downloading the repo, create a virtual environment `VENV`. Then install all dependencies in the activated `VENV`:
 
-    conda create -n VENV
+    conda create -n VENV python=3.7
     conda activate VENV
-    cd ./AutoTest
+    pip install --upgrade pip
+    pip install tensorflow==1.15.5
     pip install -r requirements.txt
-
-You also need to run the following script to set up SentenceBERT and Sherlock.
-
-    python3 sbert_sherlock_setup.py
 
 ### Configuration setup
 
@@ -199,12 +228,23 @@ The GLoVe-related SDC requires GLoVe pretrained vectors. You may download it und
 After downloading the zip file, unzip it and put the content under `{config.dir.storage_root_dir}/{config.dir.storage_root.glove}`.
 
 
-### Load doduo models
+### Load CTA models
 
 
-The Doduo-related SDC requires [doduo](https://github.com/megagonlabs/doduo). We have separated the file for Doduo's large model and data files in a separate place. You may find them in `model` and `data` under `code/doduo-materials` in the [google drive](https://drive.google.com/drive/folders/15pNNrk9IqXOMofR5b2cpftk4A-AfjQiN?usp=sharing).
+We have separated the model files for Sherlock and Doduo in our [google drive](https://drive.google.com/drive/folders/15pNNrk9IqXOMofR5b2cpftk4A-AfjQiN?usp=sharing). You may find them under `code/sherlock-materials` and `code/doduo-materials`.
 
-After downloading them, you need to put them into the corresponding location under `AutoTest/doduo-project` as follows.
+After downloading them, put them into the corresponding location under `AutoTest/sherlock-project` and `AutoTest/doduo-project` as follows.
+
+For sherlock model:
+
+```console
+$ tree sherlock-project
+sherlock-project
+├── model_files
+...
+```
+
+For doduo model and data:
 
 ```console
 $ tree doduo-project
@@ -215,8 +255,18 @@ doduo-project
 ```
 
 
+### Set up SentenceBERT and Sherlock  
 
-### Minor note
+SentenceBERT and Sherlock requires additional materials that need to be downloaded.
+
+After the above configurations are correctly set, run the following script to set up SentenceBERT and Sherlock.
+
+    cd ./AutoTest/code/AutoTest
+    python3 sbert_sherlock_setup.py
+
+
+
+#### Minor note
 It is noticed that the version of `multiprocessing` module used by this project may report the following bug when the training corpus is too large (~200K columns as what we used in the paper). 
 You may see the following error message:
 

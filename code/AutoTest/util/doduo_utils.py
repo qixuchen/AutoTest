@@ -128,11 +128,11 @@ def get_matching_rows_parallel(df, pre_list, dist_val_scores, n_proc):
                         aggre_dict[k] = aggre_dict[k] + v
             return aggre_dict
 
-def dist_val_scores_parallel_core(ns, start, end, dir, order):
+def dist_val_scores_parallel_core(ns, start, end, dir, result_fname, order):
     df = pd.DataFrame(ns.df[start : end], columns = ns.df_col, index = ns.df_idx[start : end])
     for i in range(ceil(len(df) / 1000)):
-        print(f"{load_corpus.CORPUS_NAME}_dist_val_scores_doduo_proc_{order}_seg_{i}")
-        fname = os.path.join(dir, f"{load_corpus.CORPUS_NAME}_dist_val_scores_doduo_proc_{order}_seg_{i}.pkl")
+        print(f"{result_fname}_proc_{order}_seg_{i}")
+        fname = os.path.join(dir, f"{result_fname}_proc_{order}_seg_{i}.pkl")
         seg = df.iloc[i * 1000 : (i+1) * 1000]
         min_scores = seg['dist_val'].apply(lambda x: predict_multi_row(pd.DataFrame({'dist_val': [[val] for val in x]})))
         min_scores.to_pickle(fname)
@@ -146,12 +146,12 @@ def dist_val_scores_parallel(df, dir, result_fname, n_proc):
         with mp.Pool() as pool:
             start_list = [len(df) * i // n_proc for i in range(n_proc)]
             end_list = [len(df) * (i + 1) // n_proc for i in range(n_proc)]
-            pool.starmap(dist_val_scores_parallel_core, zip([ns] * n_proc, start_list, end_list, [dir] * n_proc, range(n_proc)))
+            pool.starmap(dist_val_scores_parallel_core, zip([ns] * n_proc, start_list, end_list, [dir] * n_proc, [result_fname] * n_proc, range(n_proc)))
             
     dist_val_scores = pd.DataFrame()
     for order in range(n_proc):
         for i in range(ceil(len(df) / (n_proc * 1000))):
-            seg_fname = os.path.join(dir, f"{load_corpus.CORPUS_NAME}_dist_val_scores_doduo_proc_{order}_seg_{i}.pkl")
+            seg_fname = os.path.join(dir, f"{result_fname}_proc_{order}_seg_{i}.pkl")
             dist_val_scores = pd.concat([dist_val_scores, pd.read_pickle(seg_fname)])
     dist_val_scores[0].to_pickle(os.path.join(dir, result_fname))     
 

@@ -181,22 +181,27 @@ where `[PATH_TO_BENCHMARK]` is the path to one of the benchmark files (i.e., `RT
 
 The result for this step, i.e., the detected errors, can be found in `code/AutoTest/results/detected_outliers`.
 
-### Installation
+## Installation
 
-The project is developed on a Ubuntu system with 2.4GHz 64-core CPU, 512G memory, and a Python version 3.7.16.
+The project is developed on a Ubuntu 20.04 system with 2.4GHz 64-core CPU, 512G memory, and Python version 3.7.16.
+
+First, set up rust and cargo, which is required for SentenceBERT installation.
+
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+Then restart your terminal and run
+
+    source $HOME/.cargo/env
 
 After downloading the repo, create a virtual environment `VENV`. Then install all dependencies in the activated `VENV`:
 
-    conda create -n VENV
+    conda create -n VENV python=3.7
     conda activate VENV
-    cd ./AutoTest
+    pip install --upgrade pip
+    pip install tensorflow==1.15.5
     pip install -r requirements.txt
 
-You also need to run the following script to set up SentenceBERT and Sherlock.
-
-    python3 sbert_sherlock_setup.py
-
-#### Configuration setup
+### Configuration setup
 
 Before running the code, you need to specify the directories where you want store the results, datasets and SDCs in `config.py`. 
 <!-- See the comments in `config.py` for the meaning of each directory.  -->
@@ -216,19 +221,30 @@ Remember to put (1) the training corpura, (2) the test benchmarks and (3) the sy
 
 3, Put the synthetic dataset (for SDC selection) under `{config.dir.storage_root_dir}/{config.dir.storage_root.synth_dataset}`.
 
-#### Download GLoVe pretrained vectors
+### Download GLoVe pretrained vectors
 
 The GLoVe-related SDC requires GLoVe pretrained vectors. You may download it under under its [official website](https://nlp.stanford.edu/projects/glove/). The [6B version](https://nlp.stanford.edu/data/glove.6B.zip) is used in this project.
 
 After downloading the zip file, unzip it and put the content under `{config.dir.storage_root_dir}/{config.dir.storage_root.glove}`.
 
 
-#### Load doduo models
+### Load CTA models
 
 
-The Doduo-related SDC requires [doduo](https://github.com/megagonlabs/doduo). We have separated the file for Doduo's large model and data files in a separate place. You may find them in `model` and `data` under `code/doduo-materials` in the [google drive](https://drive.google.com/drive/folders/15pNNrk9IqXOMofR5b2cpftk4A-AfjQiN?usp=sharing).
+We have separated the model files for Sherlock and Doduo in our [google drive](https://drive.google.com/drive/folders/15pNNrk9IqXOMofR5b2cpftk4A-AfjQiN?usp=sharing). You may find them under `code/sherlock-materials` and `code/doduo-materials`.
 
-After downloading them, you need to put them into the corresponding location under `AutoTest/doduo-project` as follows.
+After downloading them, put them into the corresponding location under `AutoTest/sherlock-project` and `AutoTest/doduo-project` as follows.
+
+For sherlock model:
+
+```console
+$ tree sherlock-project
+sherlock-project
+├── model_files
+...
+```
+
+For doduo model and data:
 
 ```console
 $ tree doduo-project
@@ -237,6 +253,16 @@ doduo-project
 ├── model
 ...
 ```
+
+
+### Set up SentenceBERT and Sherlock  
+
+SentenceBERT and Sherlock requires additional materials that need to be downloaded.
+
+After the above configurations are correctly set, run the following script to set up SentenceBERT and Sherlock.
+
+    cd ./AutoTest/code/AutoTest
+    python3 sbert_sherlock_setup.py
 
 
 
