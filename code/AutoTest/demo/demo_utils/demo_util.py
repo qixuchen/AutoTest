@@ -1,9 +1,11 @@
 import os
+from config import config
 import pickle
+from func import load_corpus
 import demo.demo_utils.helper as helper
 import pandas as pd
 import matplotlib.pyplot as plt
-from util import utils
+from util import utils, sbert_utils, doduo_utils
 from exp_utils import exp_util
 from sklearn.metrics import precision_recall_curve, PrecisionRecallDisplay
 from check import embed_check, sherlock_check, doduo_check, pattern_check, sbert_check, pyfunc_check, validator_check
@@ -11,63 +13,55 @@ from check import embed_check, sherlock_check, doduo_check, pattern_check, sbert
 CORPUS_NAME = 'rt_bench'
 
 
-def load_corpus(ds_name):
-    global CORPUS_NAME
-    support_ds = ['st_bench', 'rt_bench']
-    assert ds_name in support_ds, f"Dataset name must be in {support_ds}."
-    
-    def eval_string(s):
-        if type(s) == str:
-            return eval(s)
-        else:
-            return s
+def apply_sdc(rule_list, benchmark):
+    pre_list = list(set([r[0] for r in rule_list]))
 
-    file = f'./datasets/{ds_name}.xlsx'
-    benchmark = pd.read_excel(file)
-    benchmark['ground_truth'] = benchmark['ground_truth'].apply(lambda x: eval_string(x))
-    benchmark['ground_truth_debatable'] = benchmark['ground_truth_debatable'].apply(lambda x: eval_string(x))
-    benchmark['dist_val'] = benchmark['dist_val'].apply(lambda x: eval_string(x))
-    benchmark = benchmark[['header', 'ground_truth', 'ground_truth_debatable', 'dist_val_count', 'dist_val']]
-    CORPUS_NAME = ds_name
-    return benchmark
+    sbert_dist_val_embeddings_fname = os.path.join(config.dir.storage_root_dir, config.dir.storage_root.sbert, f'{load_corpus.CORPUS_NAME}_dist_val_embeddings.pkl')
+    doduo_intermediate_result_dir = os.path.join(config.dir.storage_root_dir, config.dir.storage_root.doduo)
+    doduo_dist_val_scores_fname = os.path.join(config.dir.storage_root_dir, config.dir.storage_root.doduo, f'{load_corpus.CORPUS_NAME}_dist_val_scores.pickle')
+    sbert_dist_val_embeddings = None
+    doduo_dist_val_scores = None
 
-
-def apply_sdc(sdc_list, benchmark):
-    n_proc = 1
-    sbert_dist_val_embeddings_fname = f'./demo/cache/{CORPUS_NAME}_dist_val_embeddings.pkl'
-    doduo_dist_val_scores_fname =  f'./demo/cache/{CORPUS_NAME}_dist_val_scores.pickle'
-
-    # load cached results for sbert and doduo
-    if any([rule[0][0] == 'sbert' for rule in sdc_list]):           
+    if any([rule[0][0] == 'sbert' for rule in rule_list]):
+        if not os.path.exists(sbert_dist_val_embeddings_fname):
+            print("SentenceBERT embedding file not found, computing ...")
+            sbert_dist_val_embeddings = sbert_utils.dist_val_embeddings_parallel(benchmark, n_proc = 8)
+            with open(sbert_dist_val_embeddings_fname, 'wb') as file:
+                pickle.dump(sbert_dist_val_embeddings, file)
+                
         with open(sbert_dist_val_embeddings_fname, 'rb') as file:
             sbert_dist_val_embeddings = pickle.load(file)
-    if any([rule[0][0] == 'doduo' for rule in sdc_list]):
-        doduo_dist_val_scores = pd.read_pickle(doduo_dist_val_scores_fname)
 
-    pre_list = list(set([r[0] for r in sdc_list]))
-    test_matching_dict = utils.build_matching_idx_dict_from_pre_list_parallel(benchmark, pre_list, n_proc, sbert_dist_val_embeddings = sbert_dist_val_embeddings, doduo_dist_val_scores = doduo_dist_val_scores)
+    if any([rule[0][0] == 'doduo' for rule in rule_list]):
+        if not os.path.exists(doduo_dist_val_scores_fname):
+            print("Doduo preprocessing result not found, computing ...")
+            doduo_utils.dist_val_scores_parallel(benchmark, doduo_intermediate_result_dir, doduo_dist_val_scores_fname, n_proc = 15)
+        doduo_dist_val_scores = pd.read_pickle(doduo_dist_val_scores_fname)
+        
+    test_matching_dict = utils.build_matching_idx_dict_from_pre_list_parallel(benchmark, pre_list, n_proc = 32, sbert_dist_val_embeddings = sbert_dist_val_embeddings, doduo_dist_val_scores = doduo_dist_val_scores)
+
 
     results = []
-    if any([rule[1][0] == 'cta' for rule in sdc_list]):
-        sub_rule_list = [rule for rule in sdc_list if rule[1][0] == 'cta']
-        results += sherlock_check.sherlock_check_parallel(benchmark, test_matching_dict, sub_rule_list, n_proc)
-    if any([rule[1][0] == 'doduo' for rule in sdc_list]):
-        sub_rule_list = [rule for rule in sdc_list if rule[1][0] == 'doduo']
-        results += doduo_check.doduo_check_parallel(benchmark, test_matching_dict, sub_rule_list, n_proc, doduo_dist_val_scores = doduo_dist_val_scores)
-    if any([rule[1][0] == 'embed' for rule in sdc_list]):
-        sub_rule_list = [rule for rule in sdc_list if rule[1][0] == 'embed']
-        results += embed_check.embed_check_parallel(benchmark, test_matching_dict, sub_rule_list, n_proc)
-    if any([rule[1][0] == 'sbert' for rule in sdc_list]):
-        sub_rule_list = [rule for rule in sdc_list if rule[1][0] == 'sbert']
-        results += sbert_check.sbert_check_parallel(benchmark, test_matching_dict, sub_rule_list, n_proc, sbert_dist_val_embeddings = sbert_dist_val_embeddings)
-    if any([rule[1][0] == 'pattern' for rule in sdc_list]):
-        sub_rule_list = [rule for rule in sdc_list if rule[1][0] == 'pattern']
+    if any([rule[1][0] == 'cta' for rule in rule_list]):
+        sub_rule_list = [rule for rule in rule_list if rule[1][0] == 'cta']
+        results += sherlock_check.sherlock_check_parallel(benchmark, test_matching_dict, sub_rule_list, n_proc = 48)
+    if any([rule[1][0] == 'doduo' for rule in rule_list]):
+        sub_rule_list = [rule for rule in rule_list if rule[1][0] == 'doduo']
+        results += doduo_check.doduo_check_parallel(benchmark, test_matching_dict, sub_rule_list, n_proc = 15, doduo_dist_val_scores = doduo_dist_val_scores)
+    if any([rule[1][0] == 'embed' for rule in rule_list]):
+        sub_rule_list = [rule for rule in rule_list if rule[1][0] == 'embed']
+        results += embed_check.embed_check_parallel(benchmark, test_matching_dict, sub_rule_list, n_proc = 48)
+    if any([rule[1][0] == 'sbert' for rule in rule_list]):
+        sub_rule_list = [rule for rule in rule_list if rule[1][0] == 'sbert']
+        results += sbert_check.sbert_check_parallel(benchmark, test_matching_dict, sub_rule_list, n_proc = 8, sbert_dist_val_embeddings = sbert_dist_val_embeddings)
+    if any([rule[1][0] == 'pattern' for rule in rule_list]):
+        sub_rule_list = [rule for rule in rule_list if rule[1][0] == 'pattern']
         results += pattern_check.pattern_check(benchmark, test_matching_dict, sub_rule_list)
-    if any([rule[1][0] == 'pyfunc' for rule in sdc_list]):
-        sub_rule_list = [rule for rule in sdc_list if rule[1][0] == 'pyfunc']
+    if any([rule[1][0] == 'pyfunc' for rule in rule_list]):
+        sub_rule_list = [rule for rule in rule_list if rule[1][0] == 'pyfunc']
         results += pyfunc_check.pyfunc_check(benchmark, test_matching_dict, sub_rule_list)
-    if any([rule[1][0] == 'validator' for rule in sdc_list]):
-        sub_rule_list = [rule for rule in sdc_list if rule[1][0] == 'validator']
+    if any([rule[1][0] == 'validator' for rule in rule_list]):
+        sub_rule_list = [rule for rule in rule_list if rule[1][0] == 'validator']
         results += validator_check.validator_check(benchmark, test_matching_dict, sub_rule_list)
         
     final_res = pd.DataFrame()
