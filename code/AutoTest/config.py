@@ -23,8 +23,8 @@ config.dir.storage_root.fine_select_rule = 'fine_select_rule'
 config.dir.storage_root.validate_results = 'validate_results'
 config.dir.storage_root.glove = 'GLoVe'
 config.dir.storage_root.sbert = 'sbert_dist_embedding'
-config.dir.storage_root.sherlock = 'preprocess/sherlock'
-config.dir.storage_root.doduo = 'preprocess/doduo'
+config.dir.storage_root.sherlock = 'sherlock'
+config.dir.storage_root.doduo = 'doduo'
 
 # folder under config.dir.storage_root_dir where training corpora are stored
 config.dir.storage_root.train_corpora = 'train_corpora' 

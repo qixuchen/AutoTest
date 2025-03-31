@@ -64,17 +64,22 @@ After the script finishes, the detected outliers will be printed out. The follow
 
 where `header` is the column header, `val` is the column values, `outlier` is the detected error, and `conf` is the confidence of the error.
 
-## Rerun both Step-1 and Step-2: Perform both offline learning and make new predictions 
+### Rerun both Step-1 (time-consuming) and Step-2: Perform both offline learning and make new predictions 
 
-To fully rerun the offline training in Step-1 (can be time-consuming), and online prediciton in Step-2, please follow the following steps. 
+If you want to rerun the entire AutoTest end-to-end, including the offline training in Step-1 (can be time-consuming) and online prediciton in Step-2, we prepared a script `AutoTest_end_to_end.sh` so that others can follow along and reproduce the results in the paper.
 
-### Reproduce: jupyter notebook to reproduce main results
+Before running the script, be sure to follow the [installation guide](#installation) and set everything correctly.
 
-We prepared a set of Jupyter notebooks so that others can follow along end-to-end, to reproduce the results in the paper.
+Then, run the script in `code/AutoTest` with the following command.
 
-In `code/AutoTest_reproduce_main_results.ipynb` we  (1) reproduce our main results in this notebook, including the PR curves of methods compared in the paper (Figure 7 and 8 of the paper), and (2) demonstrate examples errors detected by our proposed SDC on the benchmarks (in output cells).
+    source AutoTest_end_to_end.sh
 
+**Note**: The offline training in Step-1 can be time consuming. On a Ubuntu 22.04 machine with 2.4GHz 64-core CPU and 512G memory, the training on `RT-train` took ~120 hours, and the training on `Tablib` took ~200 hours. The entire script (which reproduces the results on both corpora) can take ~320 hours in total.
 
+After the script finishes, the resulting SDCs and pr-curves can be found in `code/AutoTest/results`:
+
+1) The selected SDCs are in `code/AutoTest/results/SDC`.
+2) The pr-curves are in `code/AutoTest/results/pr_curve`.
 
 ### Data: train and benchmark datasets
 
@@ -153,7 +158,7 @@ This part takes an unlabeled large corpus as an input and mines SDC in a variety
 The mined SDCs are stored in `config.dir.project_base_dir/config.dir.project_base.sdc_output` by default, where `config.dir.project_base_dir` and `config.dir.project_base.sdc_output` are two directories set by you in `config.py` (see [configuration setup](#configuration-setup)).
 
 The code for this part is expected to be slow on a personal device. 
-It took us more than 50 hours to train on a corpus with ~200K columns, on a machine with 2.4GHz 64-core CPU and 512G memory. 
+It took us more than 100 hours to train on a corpus with ~200K columns, on a machine with 2.4GHz 64-core CPU and 512G memory. 
 
 #### (2) Offline SDC selection
 
@@ -193,7 +198,7 @@ Then restart your terminal and run
 
     source $HOME/.cargo/env
 
-After downloading the repo, create a virtual environment `VENV`. Then install all dependencies in the activated `VENV`:
+After downloading the repo, create a virtual environment `VENV`. Navigate into `code/AutoTest` and install all dependencies in the activated `VENV`:
 
     conda create -n VENV python=3.7
     conda activate VENV
@@ -206,14 +211,16 @@ After downloading the repo, create a virtual environment `VENV`. Then install al
 Before running the code, you need to specify the directories where you want store the results, datasets and SDCs in `config.py`. 
 <!-- See the comments in `config.py` for the meaning of each directory.  -->
 
-In general, there are two major directories that needs to be correctly set. The first one is the path specified by `config.dir.project_base_dir` which is the directory of the code base (i.e., where `AutoTest` is located).
+In general, there are two major directories that needs to be correctly set. The first one is the path specified by `config.dir.project_base_dir` which is the directory of the code base (i.e., where `code/AutoTest` is located).
 
 The second one is the path specified by `config.dir.storage_root_dir` which is the directory where the corpora, benchmarks and intermediate results are stored.
 Note that you need to reserve sufficiently large storage space for this directory. We recommend to reserve at least 200 - 300 GB, but more may be required if you want to try the code on larger training corpora. 
 
 You may run `AutoTest_path_setup.py` and follow the instructions to check if everything is set up correctly.
 
-Remember to put (1) the training corpura, (2) the test benchmarks and (3) the synthetic dataset (for SDC selection) to the location as specified in `config.py`. Specifically,
+    python3 ./AutoTest_path_setup.py
+
+Remember to put (1) the training corpora, (2) the test benchmarks and (3) the synthetic dataset (for SDC selection) to the location as specified in `config.py`. Specifically,
 
 1, Put RT_Train and ST_Train under `{config.dir.storage_root_dir}/{config.dir.storage_root.train_corpora}`.
 
@@ -261,7 +268,6 @@ SentenceBERT and Sherlock requires additional materials that need to be download
 
 After the above configurations are correctly set, run the following script to set up SentenceBERT and Sherlock.
 
-    cd ./AutoTest/code/AutoTest
     python3 sbert_sherlock_setup.py
 
 
