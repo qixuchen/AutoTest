@@ -1,7 +1,7 @@
 # AutoTest: 
 This repo contains benchmarks, dataset, and code for **Auto-Test: Learning Semantic-Domain Constraints for Unsupervised Error Detection in Tables** (to appear in SIGMOD 2025). 
 
-Our two manually-labeled benchmarks, RT-bench (with 1200 columns randomly sampled from real relational tables containing real errors) and ST-bench (with 1200 columns randomly sampled from spreadsheet tables containing real errors), can be found [here](https://github.com/qixuchen/AutoTest/tree/main/benchmarks)
+Our two manually-labeled benchmarks, **RT-bench** (with 1200 columns randomly sampled from real relational tables containing real errors) and **ST-bench** (with 1200 columns randomly sampled from spreadsheet tables containing real errors), can be found [here](https://github.com/qixuchen/AutoTest/tree/main/benchmarks)
 
 Large data and model files (e.g., doduo models) used in the project that cannot be uploaded to GitHub can be found in this [google drive](https://drive.google.com/drive/folders/15pNNrk9IqXOMofR5b2cpftk4A-AfjQiN?usp=sharing).
 
