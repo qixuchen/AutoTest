@@ -83,7 +83,7 @@ After the script finishes, the resulting SDCs and pr-curves can be found in `cod
 
 ### Data: train and benchmark datasets
 
-We make our training corpora (`RT-train`, `ST-train`) and the two 1200-column benchmark data  (`RT-bench`, `ST-bench`) available in `data` folder of our [google drive](https://drive.google.com/drive/folders/15pNNrk9IqXOMofR5b2cpftk4A-AfjQiN?usp=sharing) (described in Section 5.1 of the paper). We will release the benchmark data publicly once the double-blind review process is complete.
+We make our training corpora (`RT-train`, `ST-train`) and the two 1200-column benchmark data  (`RT-bench`, `ST-bench`) available in `data` folder of our [google drive](https://drive.google.com/drive/folders/15pNNrk9IqXOMofR5b2cpftk4A-AfjQiN?usp=sharing) (described in Section 5.1 of the paper). 
 
 #### Training corpora
 
