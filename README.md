@@ -5,6 +5,7 @@ Our two manually-labeled benchmarks, **RT-bench** (with 1200 columns randomly sa
 
 Large data and model files (e.g., doduo models) used in the project that cannot be uploaded to GitHub can be found in this [google drive](https://drive.google.com/drive/folders/15pNNrk9IqXOMofR5b2cpftk4A-AfjQiN?usp=sharing).
 
+Full technical report version of our paper can be found [here](https://arxiv.org/pdf/2504.10762).
 
 ## Overview:
 
